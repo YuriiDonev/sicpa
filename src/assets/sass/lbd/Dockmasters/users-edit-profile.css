@@ -1,0 +1,76 @@
+.phone-number-email-dropzone-container {
+  display: flex;
+  flex-direction: row; }
+  .phone-number-email-dropzone-container .phone-number-email-container {
+    width: 50%; }
+    .phone-number-email-dropzone-container .phone-number-email-container .phone-number-container {
+      display: flex;
+      flex-direction: column; }
+      .phone-number-email-dropzone-container .phone-number-email-container .phone-number-container .phone, .phone-number-email-dropzone-container .phone-number-email-container .phone-number-container .mobile-phone {
+        width: 100%; }
+    .phone-number-email-dropzone-container .phone-number-email-container .email-container .email {
+      width: 100%; }
+  .phone-number-email-dropzone-container .dropzone-container {
+    width: 50%;
+    padding-top: 20px; }
+    .phone-number-email-dropzone-container .dropzone-container .dropzone-title {
+      margin-bottom: 5px; }
+    .phone-number-email-dropzone-container .dropzone-container .dropzone {
+      border: 1px solid #dddddd;
+      height: 110px;
+      width: 110px;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      border-radius: 50%;
+      background-color: #EBEBE4;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+    .phone-number-email-dropzone-container .dropzone-container .dropzone:hover {
+      cursor: pointer;
+      background-color: #e4e4e4; }
+    .phone-number-email-dropzone-container .dropzone-container .upload .camera {
+      margin: 0 auto;
+      padding-left: 0px; }
+    .phone-number-email-dropzone-container .dropzone-container .upload .upload-camera-title {
+      display: flex;
+      flex-direction: row; }
+      .phone-number-email-dropzone-container .dropzone-container .upload .upload-camera-title div:first-child {
+        margin-right: 5px; }
+
+.edit-profile-button-container {
+  margin: 30px 20px 20px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; }
+  .edit-profile-button-container .change-password-link {
+    color: #11bfe3; }
+  .edit-profile-button-container .change-password-link:hover {
+    cursor: pointer; }
+  .edit-profile-button-container .edit-profile-button button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /*center horizontal*/
+    align-items: center;
+    /*center vertical */
+    color: #FEFEFE;
+    background-color: gray;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 30px 10px 30px;
+    outline: none; }
+    .edit-profile-button-container .edit-profile-button button.active {
+      background-color: #23CCEF; }
+    .edit-profile-button-container .edit-profile-button button.active:hover {
+      background-color: #00aed2; }
+
+@media screen and (max-width: 600px) {
+  .phone-number-email-dropzone-container {
+    display: flex;
+    flex-direction: column; }
+    .phone-number-email-dropzone-container .phone-number-email-container {
+      width: 100%; }
+  .edit-profile-button-container {
+    display: flex;
+    justify-content: center; } }

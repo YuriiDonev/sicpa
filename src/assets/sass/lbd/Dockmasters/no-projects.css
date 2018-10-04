@@ -1,0 +1,59 @@
+.no-projects-placeholder {
+  background-color: #FFFFFF;
+  margin: 30px 30px 30px 30px;
+  border: 1px solid #dddddd;
+  border-radius: 4px;
+  padding: 20px 0px 20px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 190px); }
+  .no-projects-placeholder .no-projects-placeholder-container .no-projects-placeholder-title {
+    font-size: 18px; }
+  .no-projects-placeholder .no-projects-placeholder-container .no-projects-placeholder-contact-us {
+    display: flex;
+    justify-content: center;
+    padding: 30px 0px 0px 0px; }
+    .no-projects-placeholder .no-projects-placeholder-container .no-projects-placeholder-contact-us a {
+      color: #333;
+      padding: 7px 10px 7px 10px;
+      border: 1px solid #dddddd;
+      background-color: #EBEBE4;
+      border-radius: 30px; }
+    .no-projects-placeholder .no-projects-placeholder-container .no-projects-placeholder-contact-us a:hover {
+      cursor: pointer;
+      background-color: #dddddd; }
+  .no-projects-placeholder .no-projects-placeholder-container.unverified {
+    padding: 0px 20px 0px 20px; }
+    .no-projects-placeholder .no-projects-placeholder-container.unverified .unverified-contact-us {
+      font-size: 16px; }
+      .no-projects-placeholder .no-projects-placeholder-container.unverified .unverified-contact-us a {
+        color: #23CCEF;
+        padding: 0px 0px 0px 0px;
+        margin: 0px 10px 0px 10px;
+        border: none;
+        background-color: transparent;
+        border-radius: 0; }
+
+@media screen and (max-width: 600px) {
+  .no-projects-placeholder {
+    margin: 30px 10px 30px 10px; }
+    .no-projects-placeholder .no-projects-placeholder-container .no-projects-placeholder-title {
+      display: table;
+      text-align: center; }
+      .no-projects-placeholder .no-projects-placeholder-container .no-projects-placeholder-title span {
+        display: table-cell;
+        vertical-align: middle; }
+    .no-projects-placeholder .no-projects-placeholder-container .no-projects-placeholder-contact-us {
+      padding: 30px 10px 0px 10px; }
+    .no-projects-placeholder .no-projects-placeholder-container.unverified {
+      width: 100%;
+      padding: 0px 0px 0px 0px; }
+      .no-projects-placeholder .no-projects-placeholder-container.unverified .unverified-contact-us {
+        display: flex;
+        flex-direction: column; }
+        .no-projects-placeholder .no-projects-placeholder-container.unverified .unverified-contact-us a {
+          margin: 0px 0px 0px 0px;
+          text-align: center; }
+        .no-projects-placeholder .no-projects-placeholder-container.unverified .unverified-contact-us span {
+          text-align: center; } }

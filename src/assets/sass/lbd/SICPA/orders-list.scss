@@ -1,0 +1,52 @@
+
+.order-list-table {
+  border: 1px solid #D3D3D3;
+  .order-list-table-row {
+      display: flex;
+      flex-direction: row;
+
+      padding: 5px 0px 5px 0px;
+
+      .created {
+        width: 10%;
+      }
+      .confirmed {
+        width: 25%;
+      }
+      .order {
+        width: 10%;
+      }
+      .carrier {
+        width: 20%;
+      }
+      .status {
+        width: 25%;
+      }
+      .action {
+        width: 10%;
+        &.confirmed {
+          background-color: #b4ffaa;
+        }
+      }
+      .action:hover {
+        cursor: pointer;
+      }
+
+      .created, .confirmed, .order, .carrier, .status, .action {
+        &.header {
+          color: #A2A3A5;
+        }
+      }
+  }
+
+  .order-list-table-row:nth-child(odd) {
+    background-color: #F9F9F9;
+  }
+
+  .order-list-table-row {
+    &.header {
+      background-color: #ffffff;
+      border-bottom: 1px solid #D3D3D3;
+    }
+  }
+}

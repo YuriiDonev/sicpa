@@ -1,0 +1,138 @@
+.phone-number-email-dropzone-container {
+  display: flex;
+  flex-direction: row;
+
+  .phone-number-email-container {
+    width: 50%;
+    .phone-number-container {
+      display: flex;
+      flex-direction: column;
+      .phone, .mobile-phone {
+        width: 100%;
+      }
+    }
+    .email-container {
+      .email {
+        width: 100%;
+      }
+    }
+  }
+  .dropzone-container {
+    width: 50%;
+    padding-top: 20px;
+    .dropzone-title {
+      margin-bottom: 5px;
+    }
+    .dropzone {
+      border: 1px solid #dddddd;
+      height: 110px;
+      width: 110px;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      border-radius: 50%;
+      background-color: #EBEBE4;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .dropzone:hover {
+      cursor: pointer;
+      background-color: #e4e4e4;
+    }
+
+    .upload {
+      .camera {
+        margin: 0 auto;
+        padding-left: 0px;
+      }
+      .upload-camera-title {
+        display: flex;
+        flex-direction: row;
+        div:first-child {
+          margin-right: 5px;
+        }
+      }
+    }
+
+  }
+}
+
+.edit-profile-button-container {
+    margin: 30px 20px 20px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .change-password-link {
+      color: #11bfe3;
+    }
+    .change-password-link:hover {
+      cursor: pointer;
+    }
+
+  .edit-profile-button {
+
+    button {
+      display: flex;
+      flex-direction: row;
+      justify-content: center; /*center horizontal*/
+      align-items: center;     /*center vertical */
+
+      color: #FEFEFE;
+      // background-color: #23CCEF;
+      background-color: gray;
+      border: none;
+      border-radius: 5px;
+      padding: 10px 30px 10px 30px;
+      outline: none;
+      &.active {
+        background-color: #23CCEF;
+      }
+      &.active:hover {
+        background-color: #00aed2;
+      }
+    }
+
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .phone-number-email-dropzone-container {
+    display: flex;
+    flex-direction: column;
+
+    .phone-number-email-container {
+      width: 100%;
+
+    }
+    // .dropzone-container {
+    //   padding: 20px 20px 0px 20px;
+    //   width: 100%;
+    //   .dropzone {
+    //     // width: 100%;
+    //     // height: 50px;
+    //     // border: 1px solid #dddddd;
+    //     // border-radius: 25px;
+    //     // background-color: #EBEBE4;
+    //     // display: flex;
+    //     // justify-content: center;
+    //     // align-items: center;
+    //     // cursor: pointer;
+    //   }
+    //   .upload {
+    //     flex-direction: row;
+    //     justify-content: center; /*center horizontal*/
+    //     align-items: center;     /*center vertical */
+    //     margin-bottom: 0px;
+    //     .upload-camera-title {
+    //       margin-left: 10px;
+    //     }
+    //   }
+    // }
+  }
+
+  .edit-profile-button-container {
+      display: flex;
+      justify-content: center;
+  }
+}

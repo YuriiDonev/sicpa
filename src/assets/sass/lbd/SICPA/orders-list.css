@@ -1,0 +1,29 @@
+.order-list-table {
+  border: 1px solid #D3D3D3; }
+  .order-list-table .order-list-table-row {
+    display: flex;
+    flex-direction: row;
+    padding: 5px 0px 5px 0px; }
+    .order-list-table .order-list-table-row .created {
+      width: 10%; }
+    .order-list-table .order-list-table-row .confirmed {
+      width: 25%; }
+    .order-list-table .order-list-table-row .order {
+      width: 10%; }
+    .order-list-table .order-list-table-row .carrier {
+      width: 20%; }
+    .order-list-table .order-list-table-row .status {
+      width: 25%; }
+    .order-list-table .order-list-table-row .action {
+      width: 10%; }
+      .order-list-table .order-list-table-row .action.confirmed {
+        background-color: #b4ffaa; }
+    .order-list-table .order-list-table-row .action:hover {
+      cursor: pointer; }
+    .order-list-table .order-list-table-row .created.header, .order-list-table .order-list-table-row .confirmed.header, .order-list-table .order-list-table-row .order.header, .order-list-table .order-list-table-row .carrier.header, .order-list-table .order-list-table-row .status.header, .order-list-table .order-list-table-row .action.header {
+      color: #A2A3A5; }
+  .order-list-table .order-list-table-row:nth-child(odd) {
+    background-color: #F9F9F9; }
+  .order-list-table .order-list-table-row.header {
+    background-color: #ffffff;
+    border-bottom: 1px solid #D3D3D3; }

@@ -1,0 +1,343 @@
+
+
+.schedule-wrapper {
+  border: 1px solid #dddddd;
+  border-radius: 4px;
+  background-color: #FFFFFF;
+  margin: 0px 15px 30px 15px;
+  padding: 20px 20px 20px 20px;
+
+  .schedule-container {
+    margin: 0px 20% 0px 20px;
+  }
+}
+
+.schedule-resource {
+  display: flex;
+  flex-direction: row;
+  margin: 0px 0px 10px 0px;
+  font-size: 14px;
+}
+
+.schedule-resource-left {
+  width: 15%;
+  font-weight: 600;
+}
+
+.schedule-resource-right {
+  width: 85%;
+  background-color: #E3E3E3; // $light-gray // #E3E3E3
+  font-weight: 500;
+  padding: 5px 5px 5px 0px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+
+  .time {
+    width: 25%;
+    min-width: 170px;
+    padding: 0% 0% 0% 5%;
+  }
+  .company {
+    margin: 0px 20px 0px 40px;
+    width: 30%;
+    width: 200px;
+    .item-name {
+      padding-bottom: 5px;
+      font-weight: 600;
+    }
+    .review-request-button {
+      display: flex;
+      align-items: center;
+      margin: 10px 0px 10px 0px;
+      button {
+        color: #FEFEFE;
+        background-color: #23CCEF;
+        border: none;
+        border-radius: 20px;
+        padding: 2px 25px 2px 25px;
+        outline: none;
+      }
+      button:hover{
+        background-color: #00aed2;
+      }
+    }
+  }
+  .notes {
+    color: gray;
+  }
+  .author {
+    padding: 0px 0px 3px 0px;
+  }
+
+  .status-wrapper {
+    display: flex;
+    align-items: center;
+    .status {
+      padding: 2px 15px 2px 15px;
+      border-radius: 20px;
+      color: #FEFEFE;
+      &.pending {
+        background-color: #FFB300;
+      }
+      &.approved {
+        background-color: #43A047;
+      }
+      &.rejected, &.cancelled {
+        background-color: #F4511E;
+      }
+    }
+  }
+
+  &.active:hover {
+    cursor: pointer;
+  }
+}
+
+.schedule-resource-name {
+  font-size: 14px;
+  font-weight: 600;
+  margin: 0px 0px 10px 0px;
+}
+
+.schedule-radiobuttons-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0px 30px 0px;
+
+  .schedule-radiobuttons {
+    display: flex;
+    flex-direction: row;
+    // margin: 10px 0px 20px 0px;
+
+    .radio-by-date {
+      // width: 15%;
+      margin-right: 60px;
+    }
+    // .radio-by-resource {
+    //   width: 85%;
+    // }
+
+    .radio-item {
+      display: inline-block;
+      position: relative;
+      padding: 0 6px;
+      // margin: 10px 0 0;
+      label:hover {
+        cursor: pointer;
+      }
+    }
+
+    .radio-item input[type='radio'] {
+      display: none;
+    }
+    .radio-item label {
+      color: #666;
+      font-weight: normal;
+    }
+
+    .radio-item label:before {
+      content: " ";
+      display: inline-block;
+      position: relative;
+      top: 5px;
+      margin: 0 5px 0 0;
+      width: 16px;
+      height: 16px;
+      border-radius: 11px;
+      border: 2px solid #E3E3E3; // $light-gray
+      background-color: transparent;
+    }
+
+    .checked-date label:before, .checked-resource label:before {
+      border: 2px solid #23CCEF; //$color-azure
+    }
+
+    .radio-item input[type=radio]:checked + label:after {
+      border-radius: 11px;
+      width: 8px;
+      height: 8px;
+      position: absolute;
+      top: 9px;
+      left: 10px;
+      content: " ";
+      display: block;
+      background: #23CCEF; //$color-azure
+    }
+  }
+
+  .only-my-resources {
+    // margin: 10px 0px 20px 10px;
+    display: flex;
+    align-items: center;
+
+    .switch-title {
+      padding: 0px 10px 0px 0px;
+      font-weight: 500;
+    }
+
+    .switch {
+      position: relative;
+      display: inline-block;
+      width: 50px;
+      height: 23px;
+      margin-bottom: 0px;
+    }
+    .switch input { display:none; }
+    .slider {
+      position: absolute;
+      cursor: pointer;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: #ccc;
+      -webkit-transition: .4s;
+      transition: .4s;
+    }
+    .slider:before {
+      position: absolute;
+      content: "";
+      height: 17px;
+      width: 17px;
+      left: 4px;
+      bottom: 3px;
+      background-color: white;
+      -webkit-transition: .4s;
+      transition: .4s;
+    }
+    input:checked + .slider {
+      background-color: #2196F3;
+    }
+    input:focus + .slider {
+      box-shadow: 0 0 1px #2196F3;
+    }
+    input:checked + .slider:before {
+      -webkit-transform: translateX(26px);
+      -ms-transform: translateX(26px);
+      transform: translateX(26px);
+    }
+    /* Rounded sliders */
+    .slider.round {
+      border-radius: 34px;
+    }
+    .slider.round:before {
+      border-radius: 50%;
+    }
+    .slider:after {
+       content:'NO';
+       color: #FFFFFF;
+       display: block;
+       position: absolute;
+       transform: translate(-50%,-50%);
+       top: 50%;
+       left: 68%;
+       font-size: 12px;
+       font-weight: 400;
+    }
+    input:checked + .slider:after {
+      content:'YES';
+      left: 32%;
+    }
+  }
+}
+
+@media screen and (max-width: 1400px) and (min-width: 992px) {
+  .schedule-wrapper {
+    margin: 0px 0px 0px 0px;
+    padding: 20px 20px 0px 20px;
+    .schedule-container {
+      margin: 0px 0px 0px 0px;
+    }
+  }
+}
+
+@media screen and (max-width: 992px) and (min-width: 600px) {
+  // .wrapper {
+  //   // overflow-x: hidden !important;
+  //   .main-panel {
+  //     // -webkit-overflow-scrolling: touch !important;
+  //     touch-action: none;
+  //   }
+  // }
+
+  .schedule-wrapper {
+    margin: 0px 0px 0px 0px;
+    padding: 20px 20px 0px 20px;
+
+    .schedule-container {
+      margin: 0px 0px 0px 0px;
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  // .wrapper {
+  //   // overflow-x: hidden !important;
+  //
+  //   .main-panel {
+  //     // -webkit-overflow-scrolling: touch !important;
+  //     touch-action: none;
+  //   }
+  //
+  // }
+
+  .schedule-wrapper {
+    margin: 0px 0px 0px 0px;
+    padding: 20px 5px 0px 5px;
+
+    .schedule-container {
+      margin: 0px 0px 0px 0px;
+    }
+  }
+
+  .schedule-resource-left {
+    width: 30%;
+  }
+
+  .schedule-resource-right {
+    width: 70%;
+    flex-direction: column;
+    padding: 0px 0px 0px 20px;
+    .time {
+      padding: 5px 0px 5px 0px;
+    }
+    .company {
+      margin: 0px 0px 0px 0px;
+      .review-request-button {
+        display: flex;
+        align-items: center;
+        margin: 10px 0px 10px 0px;
+        button {
+          color: #FEFEFE;
+          background-color: #23CCEF;
+          border: none;
+          border-radius: 30px;
+          padding: 3px 15px 3px 15px;
+        }
+      }
+    }
+    .status-wrapper {
+      padding: 5px 0px 5px 0px;
+    }
+  }
+
+  .schedule-radiobuttons-container {
+    flex-direction: column;
+    align-items: flex-start;
+
+    .schedule-radiobuttons {
+      display: flex;
+      flex-direction: row;
+
+      .radio-by-date {
+        margin-right: 10px;
+      }
+    }
+    .only-my-resources {
+      padding: 20px 0px 0px 10px;
+    }
+  }
+}

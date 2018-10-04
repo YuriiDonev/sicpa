@@ -1,0 +1,234 @@
+.schedule-wrapper {
+  border: 1px solid #dddddd;
+  border-radius: 4px;
+  background-color: #FFFFFF;
+  margin: 0px 15px 30px 15px;
+  padding: 20px 20px 20px 20px; }
+  .schedule-wrapper .schedule-container {
+    margin: 0px 20% 0px 20px; }
+
+.schedule-resource {
+  display: flex;
+  flex-direction: row;
+  margin: 0px 0px 10px 0px;
+  font-size: 14px; }
+
+.schedule-resource-left {
+  width: 15%;
+  font-weight: 600; }
+
+.schedule-resource-right {
+  width: 85%;
+  background-color: #E3E3E3;
+  font-weight: 500;
+  padding: 5px 5px 5px 0px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row; }
+  .schedule-resource-right .time {
+    width: 25%;
+    min-width: 170px;
+    padding: 0% 0% 0% 5%; }
+  .schedule-resource-right .company {
+    margin: 0px 20px 0px 40px;
+    width: 30%;
+    width: 200px; }
+    .schedule-resource-right .company .item-name {
+      padding-bottom: 5px;
+      font-weight: 600; }
+    .schedule-resource-right .company .review-request-button {
+      display: flex;
+      align-items: center;
+      margin: 10px 0px 10px 0px; }
+      .schedule-resource-right .company .review-request-button button {
+        color: #FEFEFE;
+        background-color: #23CCEF;
+        border: none;
+        border-radius: 20px;
+        padding: 2px 25px 2px 25px;
+        outline: none; }
+      .schedule-resource-right .company .review-request-button button:hover {
+        background-color: #00aed2; }
+  .schedule-resource-right .notes {
+    color: gray; }
+  .schedule-resource-right .author {
+    padding: 0px 0px 3px 0px; }
+  .schedule-resource-right .status-wrapper {
+    display: flex;
+    align-items: center; }
+    .schedule-resource-right .status-wrapper .status {
+      padding: 2px 15px 2px 15px;
+      border-radius: 20px;
+      color: #FEFEFE; }
+      .schedule-resource-right .status-wrapper .status.pending {
+        background-color: #FFB300; }
+      .schedule-resource-right .status-wrapper .status.approved {
+        background-color: #43A047; }
+      .schedule-resource-right .status-wrapper .status.rejected, .schedule-resource-right .status-wrapper .status.cancelled {
+        background-color: #F4511E; }
+  .schedule-resource-right.active:hover {
+    cursor: pointer; }
+
+.schedule-resource-name {
+  font-size: 14px;
+  font-weight: 600;
+  margin: 0px 0px 10px 0px; }
+
+.schedule-radiobuttons-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0px 30px 0px; }
+  .schedule-radiobuttons-container .schedule-radiobuttons {
+    display: flex;
+    flex-direction: row; }
+    .schedule-radiobuttons-container .schedule-radiobuttons .radio-by-date {
+      margin-right: 60px; }
+    .schedule-radiobuttons-container .schedule-radiobuttons .radio-item {
+      display: inline-block;
+      position: relative;
+      padding: 0 6px; }
+      .schedule-radiobuttons-container .schedule-radiobuttons .radio-item label:hover {
+        cursor: pointer; }
+    .schedule-radiobuttons-container .schedule-radiobuttons .radio-item input[type='radio'] {
+      display: none; }
+    .schedule-radiobuttons-container .schedule-radiobuttons .radio-item label {
+      color: #666;
+      font-weight: normal; }
+    .schedule-radiobuttons-container .schedule-radiobuttons .radio-item label:before {
+      content: " ";
+      display: inline-block;
+      position: relative;
+      top: 5px;
+      margin: 0 5px 0 0;
+      width: 16px;
+      height: 16px;
+      border-radius: 11px;
+      border: 2px solid #E3E3E3;
+      background-color: transparent; }
+    .schedule-radiobuttons-container .schedule-radiobuttons .checked-date label:before, .schedule-radiobuttons-container .schedule-radiobuttons .checked-resource label:before {
+      border: 2px solid #23CCEF; }
+    .schedule-radiobuttons-container .schedule-radiobuttons .radio-item input[type=radio]:checked + label:after {
+      border-radius: 11px;
+      width: 8px;
+      height: 8px;
+      position: absolute;
+      top: 9px;
+      left: 10px;
+      content: " ";
+      display: block;
+      background: #23CCEF; }
+  .schedule-radiobuttons-container .only-my-resources {
+    display: flex;
+    align-items: center;
+    /* Rounded sliders */ }
+    .schedule-radiobuttons-container .only-my-resources .switch-title {
+      padding: 0px 10px 0px 0px;
+      font-weight: 500; }
+    .schedule-radiobuttons-container .only-my-resources .switch {
+      position: relative;
+      display: inline-block;
+      width: 50px;
+      height: 23px;
+      margin-bottom: 0px; }
+    .schedule-radiobuttons-container .only-my-resources .switch input {
+      display: none; }
+    .schedule-radiobuttons-container .only-my-resources .slider {
+      position: absolute;
+      cursor: pointer;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: #ccc;
+      -webkit-transition: .4s;
+      transition: .4s; }
+    .schedule-radiobuttons-container .only-my-resources .slider:before {
+      position: absolute;
+      content: "";
+      height: 17px;
+      width: 17px;
+      left: 4px;
+      bottom: 3px;
+      background-color: white;
+      -webkit-transition: .4s;
+      transition: .4s; }
+    .schedule-radiobuttons-container .only-my-resources input:checked + .slider {
+      background-color: #2196F3; }
+    .schedule-radiobuttons-container .only-my-resources input:focus + .slider {
+      box-shadow: 0 0 1px #2196F3; }
+    .schedule-radiobuttons-container .only-my-resources input:checked + .slider:before {
+      -webkit-transform: translateX(26px);
+      -ms-transform: translateX(26px);
+      transform: translateX(26px); }
+    .schedule-radiobuttons-container .only-my-resources .slider.round {
+      border-radius: 34px; }
+    .schedule-radiobuttons-container .only-my-resources .slider.round:before {
+      border-radius: 50%; }
+    .schedule-radiobuttons-container .only-my-resources .slider:after {
+      content: 'NO';
+      color: #FFFFFF;
+      display: block;
+      position: absolute;
+      transform: translate(-50%, -50%);
+      top: 50%;
+      left: 68%;
+      font-size: 12px;
+      font-weight: 400; }
+    .schedule-radiobuttons-container .only-my-resources input:checked + .slider:after {
+      content: 'YES';
+      left: 32%; }
+
+@media screen and (max-width: 1400px) and (min-width: 992px) {
+  .schedule-wrapper {
+    margin: 0px 0px 0px 0px;
+    padding: 20px 20px 0px 20px; }
+    .schedule-wrapper .schedule-container {
+      margin: 0px 0px 0px 0px; } }
+
+@media screen and (max-width: 992px) and (min-width: 600px) {
+  .schedule-wrapper {
+    margin: 0px 0px 0px 0px;
+    padding: 20px 20px 0px 20px; }
+    .schedule-wrapper .schedule-container {
+      margin: 0px 0px 0px 0px; } }
+
+@media screen and (max-width: 600px) {
+  .schedule-wrapper {
+    margin: 0px 0px 0px 0px;
+    padding: 20px 5px 0px 5px; }
+    .schedule-wrapper .schedule-container {
+      margin: 0px 0px 0px 0px; }
+  .schedule-resource-left {
+    width: 30%; }
+  .schedule-resource-right {
+    width: 70%;
+    flex-direction: column;
+    padding: 0px 0px 0px 20px; }
+    .schedule-resource-right .time {
+      padding: 5px 0px 5px 0px; }
+    .schedule-resource-right .company {
+      margin: 0px 0px 0px 0px; }
+      .schedule-resource-right .company .review-request-button {
+        display: flex;
+        align-items: center;
+        margin: 10px 0px 10px 0px; }
+        .schedule-resource-right .company .review-request-button button {
+          color: #FEFEFE;
+          background-color: #23CCEF;
+          border: none;
+          border-radius: 30px;
+          padding: 3px 15px 3px 15px; }
+    .schedule-resource-right .status-wrapper {
+      padding: 5px 0px 5px 0px; }
+  .schedule-radiobuttons-container {
+    flex-direction: column;
+    align-items: flex-start; }
+    .schedule-radiobuttons-container .schedule-radiobuttons {
+      display: flex;
+      flex-direction: row; }
+      .schedule-radiobuttons-container .schedule-radiobuttons .radio-by-date {
+        margin-right: 10px; }
+    .schedule-radiobuttons-container .only-my-resources {
+      padding: 20px 0px 0px 10px; } }

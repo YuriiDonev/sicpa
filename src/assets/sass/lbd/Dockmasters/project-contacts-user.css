@@ -1,0 +1,114 @@
+.project-contacts-container-user {
+  border: 1px solid #dddddd;
+  border-radius: 4px;
+  background-color: #FFFFFF;
+  margin: 0px 20% 30px 15px;
+  padding: 20px 20px 20px 20px; }
+  .project-contacts-container-user .project-contacts-user .contact-container-user:not(:last-child) .contact-item-line {
+    border-top: 1px solid #dddddd;
+    flex-grow: 1;
+    margin: 0 20px; }
+  .project-contacts-container-user .project-contacts-user .contact-container-user .contact-item {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 20px 20px 20px 20px; }
+    .project-contacts-container-user .project-contacts-user .contact-container-user .contact-item .image-container {
+      padding: 0px 15px 0px 30px;
+      width: 15%;
+      min-width: 145px;
+      display: flex;
+      flex-direction: row;
+      justify-content: center; }
+      .project-contacts-container-user .project-contacts-user .contact-container-user .contact-item .image-container .img-placeholder {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100px;
+        height: 100px;
+        border: 1px solid #dddddd;
+        border-radius: 50%;
+        background-color: #F5F5F5; }
+      .project-contacts-container-user .project-contacts-user .contact-container-user .contact-item .image-container img {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        object-fit: cover;
+        object-position: center right;
+        border: 1px solid #dddddd;
+        border-radius: 50%; }
+    .project-contacts-container-user .project-contacts-user .contact-container-user .contact-item .name-company-job-container {
+      width: 15%;
+      min-width: 240px;
+      padding: 0px 15px 0px 15px; }
+      .project-contacts-container-user .project-contacts-user .contact-container-user .contact-item .name-company-job-container .name {
+        font-size: 20px;
+        padding: 0px 0px 0px 0px; }
+      .project-contacts-container-user .project-contacts-user .contact-container-user .contact-item .name-company-job-container .company {
+        font-weight: 600;
+        padding: 5px 0px 0px 0px;
+        font-size: 14px; }
+      .project-contacts-container-user .project-contacts-user .contact-container-user .contact-item .name-company-job-container .job {
+        padding: 15px 0px 0px 0px;
+        font-size: 14px; }
+    .project-contacts-container-user .project-contacts-user .contact-container-user .contact-item .phones-email-container {
+      width: 15%;
+      min-width: 200px;
+      padding: 0px 0px 0px 15px; }
+      .project-contacts-container-user .project-contacts-user .contact-container-user .contact-item .phones-email-container .phone {
+        padding: 10px 0px 5px 0px; }
+      .project-contacts-container-user .project-contacts-user .contact-container-user .contact-item .phones-email-container .mobile {
+        padding: 5px 0px 5px 0px; }
+      .project-contacts-container-user .project-contacts-user .contact-container-user .contact-item .phones-email-container .email {
+        padding: 5px 0px 0px 0px; }
+    .project-contacts-container-user .project-contacts-user .contact-container-user .contact-item .project-contacts-user-filler {
+      width: 55%; }
+
+@media screen and (max-width: 1400px) and (min-width: 600px) {
+  .project-contacts-container-user {
+    margin: 0px 10px 30px 10px;
+    padding: 20px 10px 20px 10px; }
+    .project-contacts-container-user .project-contacts-user .contact-container-user .contact-item {
+      padding: 20px 0px 20px 0px; } }
+
+@media screen and (max-width: 600px) {
+  .project-contacts-container-user {
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 30px 0px; }
+    .project-contacts-container-user .project-contacts-user .contact-container-user:not(:last-child) .contact-item-line {
+      border-top: 1px solid #dddddd;
+      flex-grow: 1;
+      margin: 0 20px; }
+    .project-contacts-container-user .project-contacts-user .contact-container-user .contact-item {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      padding: 20px 20px 20px 20px; }
+      .project-contacts-container-user .project-contacts-user .contact-container-user .contact-item .image-container {
+        padding: 0px 0px 15px 35px;
+        width: 100%;
+        justify-content: flex-start; }
+      .project-contacts-container-user .project-contacts-user .contact-container-user .contact-item .name-company-job-container {
+        width: 100%;
+        padding: 0px 15px 0px 30px; }
+        .project-contacts-container-user .project-contacts-user .contact-container-user .contact-item .name-company-job-container .name {
+          font-size: 20px;
+          padding: 0px 0px 0px 0px; }
+        .project-contacts-container-user .project-contacts-user .contact-container-user .contact-item .name-company-job-container .company {
+          font-weight: 600;
+          padding: 5px 0px 0px 0px;
+          font-size: 14px; }
+        .project-contacts-container-user .project-contacts-user .contact-container-user .contact-item .name-company-job-container .job {
+          padding: 15px 0px 0px 0px;
+          font-size: 14px; }
+      .project-contacts-container-user .project-contacts-user .contact-container-user .contact-item .phones-email-container {
+        width: 100%;
+        padding: 0px 0px 0px 30px; }
+        .project-contacts-container-user .project-contacts-user .contact-container-user .contact-item .phones-email-container .phone {
+          padding: 10px 0px 5px 0px; }
+        .project-contacts-container-user .project-contacts-user .contact-container-user .contact-item .phones-email-container .mobile {
+          padding: 5px 0px 5px 0px; }
+        .project-contacts-container-user .project-contacts-user .contact-container-user .contact-item .phones-email-container .email {
+          padding: 5px 0px 0px 0px; }
+      .project-contacts-container-user .project-contacts-user .contact-container-user .contact-item .project-contacts-user-filler {
+        display: none; } }

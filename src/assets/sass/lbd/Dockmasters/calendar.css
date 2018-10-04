@@ -1,0 +1,342 @@
+.calendar-custom {
+  display: none; }
+
+.calendar-wrapper {
+  border: 1px solid #dddddd;
+  border-radius: 4px;
+  background-color: #FFFFFF;
+  margin: 0px 5% 0px 5%;
+  position: relative; }
+  .calendar-wrapper .rbc-calendar {
+    display: block !important; }
+    .calendar-wrapper .rbc-calendar .rbc-time-view {
+      display: block !important; }
+
+.rbc-time-content {
+  overflow-y: visible; }
+
+.rbc-event {
+  z-index: 0 !important;
+  border: 2px solid !important;
+  border-radius: 6px !important; }
+
+.rbc-row-content {
+  z-index: 0 !important; }
+
+.rbc-month-view {
+  display: block !important; }
+
+.rbc-agenda-view {
+  overflow: visible; }
+
+.plus-booking-button-container {
+  position: fixed;
+  right: 60px;
+  bottom: 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: center; }
+  .plus-booking-button-container .plus-booking-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    font-size: 70px;
+    font-weight: 100;
+    color: #FEFEFE;
+    background-color: gray;
+    -webkit-user-select: none;
+    /* Safari */
+    -moz-user-select: none;
+    /* Firefox */
+    -ms-user-select: none;
+    /* IE10+/Edge */
+    user-select: none;
+    /* Standard */ }
+  .plus-booking-button-container .make-booking {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    padding: 10px 20px 10px 20px;
+    color: #FEFEFE;
+    background-color: gray;
+    border-radius: 4px;
+    -webkit-user-select: none;
+    /* Safari */
+    -moz-user-select: none;
+    /* Firefox */
+    -ms-user-select: none;
+    /* IE10+/Edge */
+    user-select: none;
+    /* Standard */ }
+  .plus-booking-button-container.not-visible {
+    display: none; }
+
+.plus-booking-button-container:hover {
+  cursor: pointer; }
+  .plus-booking-button-container:hover .make-booking {
+    display: flex; }
+
+.select-resource-container {
+  width: 20%;
+  min-width: 200px;
+  position: absolute;
+  top: 20px;
+  left: 20px; }
+  .select-resource-container .Select.is-focused:not(.is-open) .Select-control {
+    border-color: #23CCEF;
+    box-shadow: none; }
+  .select-resource-container .Select-menu-outer {
+    z-index: 5; }
+  .select-resource-container .resource-selected-from-list {
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    height: 35px;
+    border-radius: 5px;
+    border: 1px solid #dddddd;
+    background-color: #EBEBE4;
+    font-size: 17px; }
+
+.custom-toolbar-container .select-navigation-container {
+  display: flex;
+  flex-direction: row;
+  padding: 20px 20px 20px 20px; }
+  .custom-toolbar-container .select-navigation-container .custom-toolbar-navigation {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end; }
+    .custom-toolbar-container .select-navigation-container .custom-toolbar-navigation .back-next-buttons {
+      display: flex;
+      flex-direction: row;
+      padding-right: 40px; }
+      .custom-toolbar-container .select-navigation-container .custom-toolbar-navigation .back-next-buttons .btn-back, .custom-toolbar-container .select-navigation-container .custom-toolbar-navigation .back-next-buttons .btn-current, .custom-toolbar-container .select-navigation-container .custom-toolbar-navigation .back-next-buttons .btn-next {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50px;
+        color: #23CCEF;
+        border: 1px solid #23CCEF;
+        border-radius: 4px; }
+      .custom-toolbar-container .select-navigation-container .custom-toolbar-navigation .back-next-buttons .btn-back, .custom-toolbar-container .select-navigation-container .custom-toolbar-navigation .back-next-buttons .btn-next {
+        font-size: 26px; }
+        .custom-toolbar-container .select-navigation-container .custom-toolbar-navigation .back-next-buttons .btn-back div, .custom-toolbar-container .select-navigation-container .custom-toolbar-navigation .back-next-buttons .btn-next div {
+          margin-top: -4px; }
+      .custom-toolbar-container .select-navigation-container .custom-toolbar-navigation .back-next-buttons .btn-back {
+        margin-right: 5px; }
+      .custom-toolbar-container .select-navigation-container .custom-toolbar-navigation .back-next-buttons .btn-next {
+        margin-left: 5px; }
+      .custom-toolbar-container .select-navigation-container .custom-toolbar-navigation .back-next-buttons .btn-current {
+        width: 100px; }
+      .custom-toolbar-container .select-navigation-container .custom-toolbar-navigation .back-next-buttons .btn-back:hover, .custom-toolbar-container .select-navigation-container .custom-toolbar-navigation .back-next-buttons .btn-current:hover, .custom-toolbar-container .select-navigation-container .custom-toolbar-navigation .back-next-buttons .btn-next:hover {
+        cursor: pointer;
+        background-color: #eaf6ff; }
+    .custom-toolbar-container .select-navigation-container .custom-toolbar-navigation .period-view-container {
+      display: flex;
+      flex-direction: row; }
+      .custom-toolbar-container .select-navigation-container .custom-toolbar-navigation .period-view-container .month-view, .custom-toolbar-container .select-navigation-container .custom-toolbar-navigation .period-view-container .week-view, .custom-toolbar-container .select-navigation-container .custom-toolbar-navigation .period-view-container .day-view, .custom-toolbar-container .select-navigation-container .custom-toolbar-navigation .period-view-container .agenda-view {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 80px;
+        color: #23CCEF;
+        border: 1px solid #23CCEF;
+        border-radius: 4px;
+        padding: 0px 10px 0px 10px;
+        margin-right: 10px; }
+        .custom-toolbar-container .select-navigation-container .custom-toolbar-navigation .period-view-container .month-view.active, .custom-toolbar-container .select-navigation-container .custom-toolbar-navigation .period-view-container .week-view.active, .custom-toolbar-container .select-navigation-container .custom-toolbar-navigation .period-view-container .day-view.active, .custom-toolbar-container .select-navigation-container .custom-toolbar-navigation .period-view-container .agenda-view.active {
+          background-color: #23CCEF;
+          color: #FEFEFE; }
+        .custom-toolbar-container .select-navigation-container .custom-toolbar-navigation .period-view-container .month-view.active:hover, .custom-toolbar-container .select-navigation-container .custom-toolbar-navigation .period-view-container .week-view.active:hover, .custom-toolbar-container .select-navigation-container .custom-toolbar-navigation .period-view-container .day-view.active:hover, .custom-toolbar-container .select-navigation-container .custom-toolbar-navigation .period-view-container .agenda-view.active:hover {
+          background-color: #00aed2;
+          border-color: #00aed2; }
+      .custom-toolbar-container .select-navigation-container .custom-toolbar-navigation .period-view-container .month-view:hover, .custom-toolbar-container .select-navigation-container .custom-toolbar-navigation .period-view-container .week-view:hover, .custom-toolbar-container .select-navigation-container .custom-toolbar-navigation .period-view-container .day-view:hover, .custom-toolbar-container .select-navigation-container .custom-toolbar-navigation .period-view-container .agenda-view:hover {
+        cursor: pointer;
+        background-color: #eaf6ff; }
+      .custom-toolbar-container .select-navigation-container .custom-toolbar-navigation .period-view-container .agenda-view {
+        margin-right: 0px; }
+
+.custom-toolbar-container .label-date-wrapper {
+  display: flex;
+  justify-content: center;
+  padding: 10px 0px 10px 0px; }
+  .custom-toolbar-container .label-date-wrapper .custom-toolbar-label-date {
+    font-size: 20px; }
+
+@media screen and (max-width: 1400px) and (min-width: 1190px) {
+  .calendar-wrapper {
+    margin: 0px 15px 0px 15px; } }
+
+@media screen and (max-width: 1190px) and (min-width: 992px) {
+  .calendar-wrapper {
+    margin: 0px 15px 0px 15px; }
+    .calendar-wrapper .custom-toolbar-container {
+      margin-top: 50px; }
+      .calendar-wrapper .custom-toolbar-container .select-navigation-container {
+        flex-direction: column;
+        padding: 10px 10px 10px 10px; }
+        .calendar-wrapper .custom-toolbar-container .select-navigation-container .select-resource-container {
+          width: 100%; }
+        .calendar-wrapper .custom-toolbar-container .select-navigation-container .custom-toolbar-navigation {
+          width: 100%;
+          flex-direction: column;
+          justify-content: center; }
+          .calendar-wrapper .custom-toolbar-container .select-navigation-container .custom-toolbar-navigation .back-next-buttons {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px 0px 10px 0px; }
+            .calendar-wrapper .custom-toolbar-container .select-navigation-container .custom-toolbar-navigation .back-next-buttons .btn-back, .calendar-wrapper .custom-toolbar-container .select-navigation-container .custom-toolbar-navigation .back-next-buttons .btn-current, .calendar-wrapper .custom-toolbar-container .select-navigation-container .custom-toolbar-navigation .back-next-buttons .btn-next {
+              width: 33%; }
+            .calendar-wrapper .custom-toolbar-container .select-navigation-container .custom-toolbar-navigation .back-next-buttons .btn-back {
+              margin-right: 10px; }
+            .calendar-wrapper .custom-toolbar-container .select-navigation-container .custom-toolbar-navigation .back-next-buttons .btn-next {
+              margin-left: 10px; }
+          .calendar-wrapper .custom-toolbar-container .select-navigation-container .custom-toolbar-navigation .period-view-container {
+            display: flex;
+            flex-direction: row; }
+            .calendar-wrapper .custom-toolbar-container .select-navigation-container .custom-toolbar-navigation .period-view-container .month-view, .calendar-wrapper .custom-toolbar-container .select-navigation-container .custom-toolbar-navigation .period-view-container .week-view, .calendar-wrapper .custom-toolbar-container .select-navigation-container .custom-toolbar-navigation .period-view-container .day-view, .calendar-wrapper .custom-toolbar-container .select-navigation-container .custom-toolbar-navigation .period-view-container .agenda-view {
+              width: 25%;
+              height: 35px; }
+      .calendar-wrapper .custom-toolbar-container .label-date-wrapper .custom-toolbar-label-date {
+        font-size: 18px; }
+    .calendar-wrapper .select-resource-container {
+      left: 10px; } }
+
+@media screen and (max-width: 992px) and (min-width: 600px) {
+  .calendar-wrapper {
+    margin: 0px 5px 0px 5px; }
+    .calendar-wrapper .custom-toolbar-container {
+      margin-top: 50px; }
+      .calendar-wrapper .custom-toolbar-container .select-navigation-container {
+        flex-direction: column;
+        padding: 10px 10px 10px 10px; }
+        .calendar-wrapper .custom-toolbar-container .select-navigation-container .select-resource-container {
+          width: 100%; }
+        .calendar-wrapper .custom-toolbar-container .select-navigation-container .custom-toolbar-navigation {
+          width: 100%;
+          flex-direction: column;
+          justify-content: center; }
+          .calendar-wrapper .custom-toolbar-container .select-navigation-container .custom-toolbar-navigation .back-next-buttons {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px 0px 10px 0px; }
+            .calendar-wrapper .custom-toolbar-container .select-navigation-container .custom-toolbar-navigation .back-next-buttons .btn-back, .calendar-wrapper .custom-toolbar-container .select-navigation-container .custom-toolbar-navigation .back-next-buttons .btn-current, .calendar-wrapper .custom-toolbar-container .select-navigation-container .custom-toolbar-navigation .back-next-buttons .btn-next {
+              width: 33%; }
+            .calendar-wrapper .custom-toolbar-container .select-navigation-container .custom-toolbar-navigation .back-next-buttons .btn-back {
+              margin-right: 10px; }
+            .calendar-wrapper .custom-toolbar-container .select-navigation-container .custom-toolbar-navigation .back-next-buttons .btn-next {
+              margin-left: 10px; }
+          .calendar-wrapper .custom-toolbar-container .select-navigation-container .custom-toolbar-navigation .period-view-container {
+            display: flex;
+            flex-direction: row; }
+            .calendar-wrapper .custom-toolbar-container .select-navigation-container .custom-toolbar-navigation .period-view-container .month-view, .calendar-wrapper .custom-toolbar-container .select-navigation-container .custom-toolbar-navigation .period-view-container .week-view, .calendar-wrapper .custom-toolbar-container .select-navigation-container .custom-toolbar-navigation .period-view-container .day-view, .calendar-wrapper .custom-toolbar-container .select-navigation-container .custom-toolbar-navigation .period-view-container .agenda-view {
+              width: 25%;
+              height: 35px; }
+      .calendar-wrapper .custom-toolbar-container .label-date-wrapper .custom-toolbar-label-date {
+        font-size: 18px; }
+    .calendar-wrapper .select-resource-container {
+      left: 10px; }
+  .plus-booking-button-container {
+    position: sticky;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end; }
+    .plus-booking-button-container .plus-booking-button {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 70px;
+      height: 70px;
+      border-radius: 50%;
+      font-size: 60px;
+      font-weight: 100;
+      color: #FEFEFE;
+      background-color: gray;
+      -webkit-user-select: none;
+      /* Safari */
+      -moz-user-select: none;
+      /* Firefox */
+      -ms-user-select: none;
+      /* IE10+/Edge */
+      user-select: none;
+      /* Standard */ }
+    .plus-booking-button-container .make-booking {
+      display: none; }
+    .plus-booking-button-container.Iphone {
+      transform: translate3d(0, 0, 0); }
+  .plus-booking-button-container:hover {
+    cursor: auto; }
+    .plus-booking-button-container:hover .make-booking {
+      display: none; } }
+
+@media screen and (max-width: 600px) {
+  .calendar-wrapper {
+    margin: 0px 0px 0px 0px; }
+  .select-resource-container {
+    width: 95%;
+    left: 10px; }
+  .custom-toolbar-container {
+    margin-top: 50px; }
+    .custom-toolbar-container .select-navigation-container {
+      flex-direction: column;
+      padding: 10px 10px 10px 10px; }
+      .custom-toolbar-container .select-navigation-container .select-resource-container {
+        width: 100%; }
+      .custom-toolbar-container .select-navigation-container .custom-toolbar-navigation {
+        width: 100%;
+        flex-direction: column;
+        justify-content: center; }
+        .custom-toolbar-container .select-navigation-container .custom-toolbar-navigation .back-next-buttons {
+          display: flex;
+          justify-content: space-between;
+          padding: 10px 0px 10px 0px; }
+          .custom-toolbar-container .select-navigation-container .custom-toolbar-navigation .back-next-buttons .btn-back, .custom-toolbar-container .select-navigation-container .custom-toolbar-navigation .back-next-buttons .btn-current, .custom-toolbar-container .select-navigation-container .custom-toolbar-navigation .back-next-buttons .btn-next {
+            width: 33%; }
+          .custom-toolbar-container .select-navigation-container .custom-toolbar-navigation .back-next-buttons .btn-back {
+            margin-right: 10px; }
+          .custom-toolbar-container .select-navigation-container .custom-toolbar-navigation .back-next-buttons .btn-next {
+            margin-left: 10px; }
+        .custom-toolbar-container .select-navigation-container .custom-toolbar-navigation .period-view-container {
+          display: flex;
+          flex-direction: row; }
+          .custom-toolbar-container .select-navigation-container .custom-toolbar-navigation .period-view-container .month-view, .custom-toolbar-container .select-navigation-container .custom-toolbar-navigation .period-view-container .week-view, .custom-toolbar-container .select-navigation-container .custom-toolbar-navigation .period-view-container .day-view, .custom-toolbar-container .select-navigation-container .custom-toolbar-navigation .period-view-container .agenda-view {
+            width: 25%;
+            height: 35px; }
+    .custom-toolbar-container .label-date-wrapper .custom-toolbar-label-date {
+      font-size: 18px; }
+  .plus-booking-button-container {
+    position: sticky;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end; }
+    .plus-booking-button-container .plus-booking-button {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      font-size: 60px;
+      font-weight: 100;
+      color: #FEFEFE;
+      background-color: gray;
+      -webkit-user-select: none;
+      /* Safari */
+      -moz-user-select: none;
+      /* Firefox */
+      -ms-user-select: none;
+      /* IE10+/Edge */
+      user-select: none;
+      /* Standard */ }
+    .plus-booking-button-container .make-booking {
+      display: none; }
+    .plus-booking-button-container.Iphone {
+      transform: translate3d(0, 0, 0); }
+  .plus-booking-button-container:hover {
+    cursor: auto; }
+    .plus-booking-button-container:hover .make-booking {
+      display: none; } }

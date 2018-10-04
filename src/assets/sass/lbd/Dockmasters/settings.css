@@ -1,0 +1,186 @@
+.settings-wrapper {
+  background-color: #FFFFFF;
+  margin: 30px 30px 0px 30px;
+  border: 1px solid #dddddd;
+  border-radius: 4px;
+  padding: 20px 0px 20px 20px; }
+  .settings-wrapper .notifications-settings-title {
+    margin-bottom: 20px; }
+  .settings-wrapper .notifications-settings-container {
+    width: 50%;
+    border: 1px solid #dddddd;
+    border-radius: 4px;
+    padding: 20px 0px 20px 20px; }
+    .settings-wrapper .notifications-settings-container .notifications-settings-toggler {
+      margin: 0px 0px 20px 0px;
+      display: flex;
+      align-items: center;
+      /* Rounded sliders */ }
+      .settings-wrapper .notifications-settings-container .notifications-settings-toggler .switch-title {
+        padding: 0px 0px 0px 10px;
+        font-weight: 500; }
+      .settings-wrapper .notifications-settings-container .notifications-settings-toggler .switch {
+        position: relative;
+        display: inline-block;
+        width: 50px;
+        min-width: 50px;
+        height: 23px; }
+      .settings-wrapper .notifications-settings-container .notifications-settings-toggler .switch input {
+        display: none; }
+      .settings-wrapper .notifications-settings-container .notifications-settings-toggler .slider {
+        position: absolute;
+        cursor: pointer;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: #ccc;
+        -webkit-transition: .4s;
+        transition: .4s; }
+      .settings-wrapper .notifications-settings-container .notifications-settings-toggler .slider:before {
+        position: absolute;
+        content: "";
+        height: 17px;
+        width: 17px;
+        left: 4px;
+        bottom: 3px;
+        background-color: white;
+        -webkit-transition: .4s;
+        transition: .4s; }
+      .settings-wrapper .notifications-settings-container .notifications-settings-toggler input:checked + .slider {
+        background-color: #2196F3; }
+      .settings-wrapper .notifications-settings-container .notifications-settings-toggler input:focus + .slider {
+        box-shadow: 0 0 1px #2196F3; }
+      .settings-wrapper .notifications-settings-container .notifications-settings-toggler input:checked + .slider:before {
+        -webkit-transform: translateX(26px);
+        -ms-transform: translateX(26px);
+        transform: translateX(26px); }
+      .settings-wrapper .notifications-settings-container .notifications-settings-toggler .slider.round {
+        border-radius: 34px; }
+      .settings-wrapper .notifications-settings-container .notifications-settings-toggler .slider.round:before {
+        border-radius: 50%; }
+      .settings-wrapper .notifications-settings-container .notifications-settings-toggler .slider:after {
+        content: 'NO';
+        color: #FFFFFF;
+        display: block;
+        position: absolute;
+        transform: translate(-50%, -50%);
+        top: 50%;
+        left: 68%;
+        font-size: 12px;
+        font-weight: 400; }
+      .settings-wrapper .notifications-settings-container .notifications-settings-toggler input:checked + .slider:after {
+        content: 'YES';
+        left: 32%; }
+    .settings-wrapper .notifications-settings-container .notifications-settings-radiobuttons-container .notifications-settings-radiobuttons .radio-only-my-resources {
+      margin-bottom: 20px; }
+    .settings-wrapper .notifications-settings-container .notifications-settings-radiobuttons-container .notifications-settings-radiobuttons .radio-item {
+      display: inline-block;
+      position: relative;
+      padding: 0 6px; }
+      .settings-wrapper .notifications-settings-container .notifications-settings-radiobuttons-container .notifications-settings-radiobuttons .radio-item label:hover {
+        cursor: pointer; }
+    .settings-wrapper .notifications-settings-container .notifications-settings-radiobuttons-container .notifications-settings-radiobuttons .radio-item input[type='radio'] {
+      display: none; }
+    .settings-wrapper .notifications-settings-container .notifications-settings-radiobuttons-container .notifications-settings-radiobuttons .radio-item label {
+      color: #666;
+      font-weight: normal; }
+    .settings-wrapper .notifications-settings-container .notifications-settings-radiobuttons-container .notifications-settings-radiobuttons .radio-item label:before {
+      content: " ";
+      display: inline-block;
+      position: relative;
+      top: 5px;
+      margin: 0 5px 0 0;
+      width: 16px;
+      height: 16px;
+      border-radius: 11px;
+      border: 2px solid #E3E3E3;
+      background-color: transparent; }
+    .settings-wrapper .notifications-settings-container .notifications-settings-radiobuttons-container .notifications-settings-radiobuttons .checked-only-my-resources label:before, .settings-wrapper .notifications-settings-container .notifications-settings-radiobuttons-container .notifications-settings-radiobuttons .checked-all-resources label:before {
+      border: 2px solid #23CCEF; }
+    .settings-wrapper .notifications-settings-container .notifications-settings-radiobuttons-container .notifications-settings-radiobuttons .radio-item input[type=radio]:checked + label:after {
+      border-radius: 11px;
+      width: 8px;
+      height: 8px;
+      position: absolute;
+      top: 9px;
+      left: 10px;
+      content: " ";
+      display: block;
+      background: #23CCEF; }
+    .settings-wrapper .notifications-settings-container .notifications-settings-radiobuttons-container .only-my-resources {
+      display: flex;
+      align-items: center;
+      /* Rounded sliders */ }
+      .settings-wrapper .notifications-settings-container .notifications-settings-radiobuttons-container .only-my-resources .switch-title {
+        padding: 0px 10px 0px 0px;
+        font-weight: 500; }
+      .settings-wrapper .notifications-settings-container .notifications-settings-radiobuttons-container .only-my-resources .switch {
+        position: relative;
+        display: inline-block;
+        width: 50px;
+        height: 23px;
+        margin-bottom: 0px; }
+      .settings-wrapper .notifications-settings-container .notifications-settings-radiobuttons-container .only-my-resources .switch input {
+        display: none; }
+      .settings-wrapper .notifications-settings-container .notifications-settings-radiobuttons-container .only-my-resources .slider {
+        position: absolute;
+        cursor: pointer;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: #ccc;
+        -webkit-transition: .4s;
+        transition: .4s; }
+      .settings-wrapper .notifications-settings-container .notifications-settings-radiobuttons-container .only-my-resources .slider:before {
+        position: absolute;
+        content: "";
+        height: 17px;
+        width: 17px;
+        left: 4px;
+        bottom: 3px;
+        background-color: white;
+        -webkit-transition: .4s;
+        transition: .4s; }
+      .settings-wrapper .notifications-settings-container .notifications-settings-radiobuttons-container .only-my-resources input:checked + .slider {
+        background-color: #2196F3; }
+      .settings-wrapper .notifications-settings-container .notifications-settings-radiobuttons-container .only-my-resources input:focus + .slider {
+        box-shadow: 0 0 1px #2196F3; }
+      .settings-wrapper .notifications-settings-container .notifications-settings-radiobuttons-container .only-my-resources input:checked + .slider:before {
+        -webkit-transform: translateX(26px);
+        -ms-transform: translateX(26px);
+        transform: translateX(26px); }
+      .settings-wrapper .notifications-settings-container .notifications-settings-radiobuttons-container .only-my-resources .slider.round {
+        border-radius: 34px; }
+      .settings-wrapper .notifications-settings-container .notifications-settings-radiobuttons-container .only-my-resources .slider.round:before {
+        border-radius: 50%; }
+      .settings-wrapper .notifications-settings-container .notifications-settings-radiobuttons-container .only-my-resources .slider:after {
+        content: 'NO';
+        color: #FFFFFF;
+        display: block;
+        position: absolute;
+        transform: translate(-50%, -50%);
+        top: 50%;
+        left: 68%;
+        font-size: 12px;
+        font-weight: 400; }
+      .settings-wrapper .notifications-settings-container .notifications-settings-radiobuttons-container .only-my-resources input:checked + .slider:after {
+        content: 'YES';
+        left: 32%; }
+
+@media screen and (max-width: 1200px) and (min-width: 600px) {
+  .settings-wrapper {
+    margin: 30px 10px 0px 10px;
+    padding: 10px 20px 10px 20px; }
+    .settings-wrapper .notifications-settings-container {
+      width: 100%;
+      padding: 20px 0px 20px 10px; } }
+
+@media screen and (max-width: 600px) {
+  .settings-wrapper {
+    margin: 30px 10px 0px 10px;
+    padding: 10px 10px 10px 10px; }
+    .settings-wrapper .notifications-settings-container {
+      width: 100%;
+      padding: 20px 0px 20px 10px; } }

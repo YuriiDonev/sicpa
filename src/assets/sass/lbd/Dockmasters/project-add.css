@@ -1,0 +1,130 @@
+.project-add-create-contacts-container {
+  border: 1px solid #dddddd;
+  border-radius: 4px;
+  background-color: #FFFFFF;
+  margin: 0px 15px 30px 15px;
+  padding: 20px 20px 20px 20px; }
+  .project-add-create-contacts-container .input-error {
+    color: red;
+    padding-top: 5px; }
+  .project-add-create-contacts-container .dropzone-container {
+    padding: 0px 0px 0px 20px; }
+    .project-add-create-contacts-container .dropzone-container .edit-contact-image {
+      padding-top: 5px; }
+      .project-add-create-contacts-container .dropzone-container .edit-contact-image span {
+        color: #11bfe3; }
+      .project-add-create-contacts-container .dropzone-container .edit-contact-image span:hover {
+        cursor: pointer; }
+      .project-add-create-contacts-container .dropzone-container .edit-contact-image .edit {
+        padding-left: 20px; }
+    .project-add-create-contacts-container .dropzone-container .dropzone {
+      border: 1px solid #dddddd;
+      height: 110px;
+      width: 110px;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      border-radius: 50%;
+      background-color: #EBEBE4;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer; }
+    .project-add-create-contacts-container .dropzone-container .upload {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 7px; }
+      .project-add-create-contacts-container .dropzone-container .upload .upload-picture {
+        padding: 0px 0px 0px 0px; }
+      .project-add-create-contacts-container .dropzone-container .upload .camera {
+        padding: 0px 0px 0px 8px;
+        font-size: 28px;
+        color: #b5b0b0; }
+    .project-add-create-contacts-container .dropzone-container img {
+      border: 1px solid #dddddd;
+      height: 110px;
+      width: 110px;
+      border-radius: 50%;
+      -o-object-fit: cover;
+      object-fit: cover; }
+  .project-add-create-contacts-container .forms-container .first-last-name-container, .project-add-create-contacts-container .forms-container .company-title-container, .project-add-create-contacts-container .forms-container .phone-number-container, .project-add-create-contacts-container .forms-container .email-container {
+    display: flex;
+    flex-direction: row; }
+    .project-add-create-contacts-container .forms-container .first-last-name-container .first-name, .project-add-create-contacts-container .forms-container .first-last-name-container .last-name, .project-add-create-contacts-container .forms-container .first-last-name-container .company-name, .project-add-create-contacts-container .forms-container .first-last-name-container .title-name, .project-add-create-contacts-container .forms-container .first-last-name-container .phone, .project-add-create-contacts-container .forms-container .first-last-name-container .mobile-phone, .project-add-create-contacts-container .forms-container .first-last-name-container .email, .project-add-create-contacts-container .forms-container .company-title-container .first-name, .project-add-create-contacts-container .forms-container .company-title-container .last-name, .project-add-create-contacts-container .forms-container .company-title-container .company-name, .project-add-create-contacts-container .forms-container .company-title-container .title-name, .project-add-create-contacts-container .forms-container .company-title-container .phone, .project-add-create-contacts-container .forms-container .company-title-container .mobile-phone, .project-add-create-contacts-container .forms-container .company-title-container .email, .project-add-create-contacts-container .forms-container .phone-number-container .first-name, .project-add-create-contacts-container .forms-container .phone-number-container .last-name, .project-add-create-contacts-container .forms-container .phone-number-container .company-name, .project-add-create-contacts-container .forms-container .phone-number-container .title-name, .project-add-create-contacts-container .forms-container .phone-number-container .phone, .project-add-create-contacts-container .forms-container .phone-number-container .mobile-phone, .project-add-create-contacts-container .forms-container .phone-number-container .email, .project-add-create-contacts-container .forms-container .email-container .first-name, .project-add-create-contacts-container .forms-container .email-container .last-name, .project-add-create-contacts-container .forms-container .email-container .company-name, .project-add-create-contacts-container .forms-container .email-container .title-name, .project-add-create-contacts-container .forms-container .email-container .phone, .project-add-create-contacts-container .forms-container .email-container .mobile-phone, .project-add-create-contacts-container .forms-container .email-container .email {
+      padding: 20px 20px 0px 20px;
+      width: 50%; }
+    .project-add-create-contacts-container .forms-container .first-last-name-container .first-name-title, .project-add-create-contacts-container .forms-container .first-last-name-container .last-name-title, .project-add-create-contacts-container .forms-container .first-last-name-container .company-name-title, .project-add-create-contacts-container .forms-container .first-last-name-container .title-name-title, .project-add-create-contacts-container .forms-container .first-last-name-container .phone-number-title,
+    .project-add-create-contacts-container .forms-container .first-last-name-container .mobile-phone-number-title, .project-add-create-contacts-container .forms-container .first-last-name-container .email-title, .project-add-create-contacts-container .forms-container .company-title-container .first-name-title, .project-add-create-contacts-container .forms-container .company-title-container .last-name-title, .project-add-create-contacts-container .forms-container .company-title-container .company-name-title, .project-add-create-contacts-container .forms-container .company-title-container .title-name-title, .project-add-create-contacts-container .forms-container .company-title-container .phone-number-title,
+    .project-add-create-contacts-container .forms-container .company-title-container .mobile-phone-number-title, .project-add-create-contacts-container .forms-container .company-title-container .email-title, .project-add-create-contacts-container .forms-container .phone-number-container .first-name-title, .project-add-create-contacts-container .forms-container .phone-number-container .last-name-title, .project-add-create-contacts-container .forms-container .phone-number-container .company-name-title, .project-add-create-contacts-container .forms-container .phone-number-container .title-name-title, .project-add-create-contacts-container .forms-container .phone-number-container .phone-number-title,
+    .project-add-create-contacts-container .forms-container .phone-number-container .mobile-phone-number-title, .project-add-create-contacts-container .forms-container .phone-number-container .email-title, .project-add-create-contacts-container .forms-container .email-container .first-name-title, .project-add-create-contacts-container .forms-container .email-container .last-name-title, .project-add-create-contacts-container .forms-container .email-container .company-name-title, .project-add-create-contacts-container .forms-container .email-container .title-name-title, .project-add-create-contacts-container .forms-container .email-container .phone-number-title,
+    .project-add-create-contacts-container .forms-container .email-container .mobile-phone-number-title, .project-add-create-contacts-container .forms-container .email-container .email-title {
+      margin-bottom: 5px; }
+    .project-add-create-contacts-container .forms-container .first-last-name-container input, .project-add-create-contacts-container .forms-container .company-title-container input, .project-add-create-contacts-container .forms-container .phone-number-container input, .project-add-create-contacts-container .forms-container .email-container input {
+      width: 100%;
+      height: 35px;
+      border-radius: 5px;
+      border: 1px solid #dddddd;
+      outline: none;
+      -webkit-box-shadow: none;
+      box-shadow: none;
+      padding-left: 10px; }
+    .project-add-create-contacts-container .forms-container .first-last-name-container input[type=text]:focus, .project-add-create-contacts-container .forms-container .company-title-container input[type=text]:focus, .project-add-create-contacts-container .forms-container .phone-number-container input[type=text]:focus, .project-add-create-contacts-container .forms-container .email-container input[type=text]:focus {
+      border: 1px solid #23CCEF; }
+    .project-add-create-contacts-container .forms-container .first-last-name-container ::placeholder, .project-add-create-contacts-container .forms-container .company-title-container ::placeholder, .project-add-create-contacts-container .forms-container .phone-number-container ::placeholder, .project-add-create-contacts-container .forms-container .email-container ::placeholder {
+      color: #CACACA;
+      opacity: 1;
+      /* Firefox */ }
+  .project-add-create-contacts-container .save-cancel-button {
+    padding: 30px 20px 20px 20px;
+    display: flex;
+    justify-content: flex-end; }
+    .project-add-create-contacts-container .save-cancel-button .save-cancel-block .cancel-button {
+      margin-right: 20px;
+      background-color: #FFA534; }
+    .project-add-create-contacts-container .save-cancel-button .save-cancel-block .cancel-button:hover {
+      background-color: #ffc071; }
+    .project-add-create-contacts-container .save-cancel-button .save-cancel-block .save-button {
+      color: #23CCEF;
+      background-color: #FFFFFF;
+      border: 2px solid #23CCEF;
+      border-radius: 5px;
+      padding: 5px 40px 5px 40px;
+      outline: none; }
+    .project-add-create-contacts-container .save-cancel-button .save-cancel-block .save-button:hover {
+      background-color: #e8fdff; }
+    .project-add-create-contacts-container .save-cancel-button .save-cancel-block button {
+      color: #FEFEFE;
+      background-color: gray;
+      border: none;
+      border-radius: 5px;
+      padding: 10px 20px 10px 20px;
+      outline: none; }
+    .project-add-create-contacts-container .save-cancel-button .save-cancel-block button.active {
+      background-color: #23CCEF; }
+    .project-add-create-contacts-container .save-cancel-button .save-cancel-block button.active:hover {
+      background-color: #00aed2; }
+
+@media screen and (max-width: 1400px) and (min-width: 600px) {
+  .project-add-create-contacts-container {
+    margin: 0px 0px 0px 0px;
+    padding: 10px 0px 10px 0px; }
+    .project-add-create-contacts-container .forms-container .first-last-name-container .first-name, .project-add-create-contacts-container .forms-container .first-last-name-container .last-name, .project-add-create-contacts-container .forms-container .first-last-name-container .company-name, .project-add-create-contacts-container .forms-container .first-last-name-container .title-name, .project-add-create-contacts-container .forms-container .first-last-name-container .phone, .project-add-create-contacts-container .forms-container .first-last-name-container .mobile-phone, .project-add-create-contacts-container .forms-container .first-last-name-container .email, .project-add-create-contacts-container .forms-container .company-title-container .first-name, .project-add-create-contacts-container .forms-container .company-title-container .last-name, .project-add-create-contacts-container .forms-container .company-title-container .company-name, .project-add-create-contacts-container .forms-container .company-title-container .title-name, .project-add-create-contacts-container .forms-container .company-title-container .phone, .project-add-create-contacts-container .forms-container .company-title-container .mobile-phone, .project-add-create-contacts-container .forms-container .company-title-container .email, .project-add-create-contacts-container .forms-container .phone-number-container .first-name, .project-add-create-contacts-container .forms-container .phone-number-container .last-name, .project-add-create-contacts-container .forms-container .phone-number-container .company-name, .project-add-create-contacts-container .forms-container .phone-number-container .title-name, .project-add-create-contacts-container .forms-container .phone-number-container .phone, .project-add-create-contacts-container .forms-container .phone-number-container .mobile-phone, .project-add-create-contacts-container .forms-container .phone-number-container .email, .project-add-create-contacts-container .forms-container .email-container .first-name, .project-add-create-contacts-container .forms-container .email-container .last-name, .project-add-create-contacts-container .forms-container .email-container .company-name, .project-add-create-contacts-container .forms-container .email-container .title-name, .project-add-create-contacts-container .forms-container .email-container .phone, .project-add-create-contacts-container .forms-container .email-container .mobile-phone, .project-add-create-contacts-container .forms-container .email-container .email {
+      padding: 20px 10px 0px 10px; } }
+
+@media screen and (max-width: 600px) {
+  .project-add-create-contacts-container {
+    margin: 0px 0px 0px 0px;
+    padding: 10px 0px 10px 0px; }
+    .project-add-create-contacts-container .forms-container .first-last-name-container, .project-add-create-contacts-container .forms-container .company-title-container, .project-add-create-contacts-container .forms-container .phone-number-container, .project-add-create-contacts-container .forms-container .email-container {
+      display: flex;
+      flex-direction: column; }
+      .project-add-create-contacts-container .forms-container .first-last-name-container .first-name, .project-add-create-contacts-container .forms-container .first-last-name-container .last-name, .project-add-create-contacts-container .forms-container .first-last-name-container .company-name, .project-add-create-contacts-container .forms-container .first-last-name-container .title-name, .project-add-create-contacts-container .forms-container .first-last-name-container .phone, .project-add-create-contacts-container .forms-container .first-last-name-container .mobile-phone, .project-add-create-contacts-container .forms-container .first-last-name-container .email, .project-add-create-contacts-container .forms-container .company-title-container .first-name, .project-add-create-contacts-container .forms-container .company-title-container .last-name, .project-add-create-contacts-container .forms-container .company-title-container .company-name, .project-add-create-contacts-container .forms-container .company-title-container .title-name, .project-add-create-contacts-container .forms-container .company-title-container .phone, .project-add-create-contacts-container .forms-container .company-title-container .mobile-phone, .project-add-create-contacts-container .forms-container .company-title-container .email, .project-add-create-contacts-container .forms-container .phone-number-container .first-name, .project-add-create-contacts-container .forms-container .phone-number-container .last-name, .project-add-create-contacts-container .forms-container .phone-number-container .company-name, .project-add-create-contacts-container .forms-container .phone-number-container .title-name, .project-add-create-contacts-container .forms-container .phone-number-container .phone, .project-add-create-contacts-container .forms-container .phone-number-container .mobile-phone, .project-add-create-contacts-container .forms-container .phone-number-container .email, .project-add-create-contacts-container .forms-container .email-container .first-name, .project-add-create-contacts-container .forms-container .email-container .last-name, .project-add-create-contacts-container .forms-container .email-container .company-name, .project-add-create-contacts-container .forms-container .email-container .title-name, .project-add-create-contacts-container .forms-container .email-container .phone, .project-add-create-contacts-container .forms-container .email-container .mobile-phone, .project-add-create-contacts-container .forms-container .email-container .email {
+        padding: 20px 20px 0px 20px;
+        width: 100%; }
+    .project-add-create-contacts-container .save-cancel-button .save-cancel-block {
+      display: flex;
+      flex-direction: row; }
+    .project-add-create-contacts-container .edit-profile-button-container {
+      display: flex;
+      flex-direction: column; }
+      .project-add-create-contacts-container .edit-profile-button-container .change-password-link {
+        margin-bottom: 10px; } }

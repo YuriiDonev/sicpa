@@ -1,0 +1,39 @@
+.header-current-project {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 20px;
+  font-weight: normal;
+  white-space: nowrap;
+  position: relative;
+  color: #FFFFFF;
+  padding: 15px 30px 15px 35px;
+  margin: 0px -15px 0px -15px; }
+  .header-current-project .header-current-project-title {
+    overflow: hidden;
+    text-transform: uppercase; }
+  .header-current-project .header-logout-helpcenter {
+    display: flex;
+    flex-direction: row; }
+    .header-current-project .header-logout-helpcenter .header-logout {
+      display: flex;
+      flex-direction: row; }
+      .header-current-project .header-logout-helpcenter .header-logout .logout {
+        font-size: 14px;
+        text-transform: uppercase;
+        margin: 5px 0px 0px 5px; }
+      .header-current-project .header-logout-helpcenter .header-logout i {
+        font-size: 28px; }
+      .header-current-project .header-logout-helpcenter .header-logout.link {
+        margin-left: 10px;
+        color: #FFFFFF; }
+    .header-current-project .header-logout-helpcenter .header-logout:hover {
+      cursor: pointer; }
+
+@media screen and (max-width: 600px) {
+  .navbar-brand {
+    padding-left: 30px !important; }
+  .navbar-toggle {
+    padding-right: 45px; }
+  .header-current-project .header-logout-helpcenter {
+    display: none; } }

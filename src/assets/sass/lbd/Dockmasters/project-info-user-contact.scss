@@ -1,0 +1,83 @@
+
+
+.show-contact-detail-popup {
+  background: #FFFFFF;
+  margin: 0 auto;
+  width: 25%;
+  min-width: 400px;
+  max-width: 450px;
+  border: 1px solid #dddddd;
+  border-radius: 10px;
+
+  .show-contact-close-circle {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 28px;
+    color: #dddddd;
+    padding: 10px 10px 0px 0px;
+    i:hover {
+      cursor: pointer;
+      -webkit-transition: all 0.30s ease-in-out;
+      -moz-transition: all 0.30s ease-in-out;
+      -ms-transition: all 0.30s ease-in-out;
+      -o-transition: all 0.30s ease-in-out;
+      border-radius: 50%;
+      box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+    }
+  }
+  .show-contact-img-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0px 0px 20px 0px;
+    img {
+      width: 120px;
+      height: 120px;
+      border: 1px solid #dddddd;
+      border-radius: 50%;
+      // object-fit: contain;
+      object-fit: cover;
+      object-position: center;
+    }
+    .contact-img-placeholder {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 120px;
+      height: 120px;
+      border: 1px solid #dddddd;
+      border-radius: 50%;
+      background-color: #F5F5F5;
+    }
+  }
+  .show-contact-name {
+    display: flex;
+    justify-content: center;
+    font-size: 22px;
+    padding: 10px 0px 10px 0px;
+  }
+  .show-contact-company {
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+    padding: 10px 0px 10px 0px;
+    font-size: 16px;
+  }
+  .show-contact-job-position, .show-contact-phone, .show-contact-mobile, .show-contact-email {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0px 10px 0px;
+    font-size: 16px;
+  }
+  .show-contact-email {
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .show-contact-detail-popup {
+    width: 100%;
+    min-width: 0px;
+    max-width: none;
+  }
+}

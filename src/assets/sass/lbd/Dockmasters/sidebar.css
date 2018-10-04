@@ -1,0 +1,174 @@
+.mobile-view-logout-help-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 25px; }
+  .mobile-view-logout-help-container div {
+    display: flex;
+    align-items: center;
+    margin: 5px 0px 5px 0px;
+    font-size: 12px; }
+    .mobile-view-logout-help-container div a {
+      display: flex;
+      align-items: center;
+      text-decoration: none;
+      color: #FFFFFF;
+      font-size: 12px; }
+  .mobile-view-logout-help-container div:last-child {
+    margin: 5px 0px 0px 0px; }
+
+.loading-indicator-wrapper {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 999999;
+  background-color: black;
+  opacity: 0.3;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .loading-indicator-wrapper .loading-indicator {
+    position: relative;
+    color: white; }
+
+.wrapper .sidebar .logo {
+  display: flex;
+  cursor: default; }
+  .wrapper .sidebar .logo .simple-text.logo-mini .logo-img img {
+    top: 0px; }
+
+.project-dropdown {
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center; }
+  .project-dropdown .project-logo {
+    margin: 0px 20px 0px 20px; }
+  .project-dropdown b {
+    position: absolute;
+    right: 22px; }
+
+.popup-proj {
+  position: fixed;
+  width: 250px;
+  height: 250px;
+  background-color: black;
+  border-radius: 4px;
+  bottom: 40px;
+  left: 50px; }
+  .popup-proj .add-project-menu {
+    display: flex;
+    flex-direction: row;
+    cursor: pointer; }
+    .popup-proj .add-project-menu .add-project-menu-sign {
+      margin-right: 10px; }
+
+.user .info ul li a .sidebar-normal {
+  margin-left: 43px !important; }
+
+.user:hover {
+  cursor: pointer; }
+
+.sidebar-choose-project-wrapper {
+  position: absolute;
+  bottom: 0;
+  width: 100%; }
+  .sidebar-choose-project-wrapper .choose-project-menu-open {
+    width: 90%;
+    position: absolute;
+    bottom: 100%;
+    background-color: black;
+    padding: 10px 10px 10px 5px;
+    margin-left: 10px;
+    border-radius: 5px;
+    z-index: 10000 !important; }
+    .sidebar-choose-project-wrapper .choose-project-menu-open .choose-project-menu-item {
+      padding: 15px 0px 15px 5px;
+      margin-bottom: 5px;
+      display: flex;
+      align-items: center; }
+      .sidebar-choose-project-wrapper .choose-project-menu-open .choose-project-menu-item .project-menu-sign {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 18px;
+        color: #FFFFFF;
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        margin: 0px 15px 0px 4px; }
+      .sidebar-choose-project-wrapper .choose-project-menu-open .choose-project-menu-item .project-menu-title {
+        color: #FFFFFF;
+        margin-left: 45px;
+        overflow: hidden; }
+    .sidebar-choose-project-wrapper .choose-project-menu-open .add-project-button {
+      display: flex;
+      align-items: center;
+      padding: 15px 10px 15px 5px; }
+      .sidebar-choose-project-wrapper .choose-project-menu-open .add-project-button .project-menu-sign {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 18px;
+        color: #FFFFFF;
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        margin: 0px 15px 0px 4px; }
+      .sidebar-choose-project-wrapper .choose-project-menu-open .add-project-button .project-menu-title {
+        color: #FFFFFF;
+        margin-left: 45px;
+        overflow: hidden; }
+    .sidebar-choose-project-wrapper .choose-project-menu-open .add-project-button:hover, .sidebar-choose-project-wrapper .choose-project-menu-open .choose-project-menu-item:hover {
+      cursor: pointer;
+      background: rgba(255, 255, 255, 0.14);
+      border-radius: 5px; }
+  .sidebar-choose-project-wrapper .sidebar-choose-project-container {
+    margin: 10px 15px 10px 10px;
+    border-radius: 5px;
+    padding: 15px 0px 15px 0px; }
+    .sidebar-choose-project-wrapper .sidebar-choose-project-container .sidebar-choose-project-title {
+      display: flex;
+      flex-direction: row;
+      align-items: center; }
+      .sidebar-choose-project-wrapper .sidebar-choose-project-container .sidebar-choose-project-title .project-logo {
+        margin-left: 14px;
+        font-size: 18px;
+        font-weight: 500;
+        width: 30px;
+        min-width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center; }
+      .sidebar-choose-project-wrapper .sidebar-choose-project-container .sidebar-choose-project-title .project-logo-title {
+        padding-left: 15px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap; }
+      .sidebar-choose-project-wrapper .sidebar-choose-project-container .sidebar-choose-project-title .project-logo-caret {
+        flex-grow: 1;
+        display: flex;
+        justify-content: flex-end;
+        padding-right: 10px; }
+        .sidebar-choose-project-wrapper .sidebar-choose-project-container .sidebar-choose-project-title .project-logo-caret span.caret.up {
+          transform: rotate(180deg); }
+  .sidebar-choose-project-wrapper .sidebar-choose-project-container:hover {
+    opacity: 1;
+    background: rgba(255, 255, 255, 0.14);
+    cursor: pointer; }
+
+@media screen and (max-height: 600px) {
+  .sidebar .sidebar-choose-project-wrapper {
+    position: relative; }
+    .sidebar .sidebar-choose-project-wrapper .choose-project-menu-open {
+      margin-bottom: 10px; }
+  .sidebar .sidebar-wrapper {
+    padding-bottom: 0px; } }
+
+/* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
+/* Landscape */

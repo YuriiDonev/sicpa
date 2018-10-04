@@ -1,0 +1,334 @@
+.users-list-container {
+  padding: 20px 20px 0px 20px;
+  margin: 0px 15px 0px 15px;
+  border: 1px solid #dddddd;
+  border-radius: 4px;
+  background-color: #FFFFFF;
+  margin-bottom: 30px; }
+  .users-list-container .invite-users-title-input-dropdown-button .invite-users-title {
+    margin-bottom: 10px;
+    font-weight: 500; }
+  .users-list-container .invite-users-title-input-dropdown-button .invite-users-input-dropdown-button {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline; }
+    .users-list-container .invite-users-title-input-dropdown-button .invite-users-input-dropdown-button .invite-users-input {
+      width: 70%;
+      margin-right: 20px; }
+      .users-list-container .invite-users-title-input-dropdown-button .invite-users-input-dropdown-button .invite-users-input input {
+        width: 100%;
+        height: 35px;
+        border-radius: 5px;
+        border: 1px solid #dddddd;
+        outline: none;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+        padding-left: 10px; }
+      .users-list-container .invite-users-title-input-dropdown-button .invite-users-input-dropdown-button .invite-users-input ::placeholder {
+        color: #CACACA;
+        opacity: 1;
+        /* Firefox */ }
+      .users-list-container .invite-users-title-input-dropdown-button .invite-users-input-dropdown-button .invite-users-input input[type=email]:focus {
+        border: 1px solid #23CCEF; }
+      .users-list-container .invite-users-title-input-dropdown-button .invite-users-input-dropdown-button .invite-users-input .input-error {
+        color: red;
+        margin-top: 5px; }
+    .users-list-container .invite-users-title-input-dropdown-button .invite-users-input-dropdown-button .invite-users-dropdown-wrapper {
+      width: 15%;
+      margin-right: 20px; }
+      .users-list-container .invite-users-title-input-dropdown-button .invite-users-input-dropdown-button .invite-users-dropdown-wrapper .invite-users-dropdown {
+        list-style: none;
+        width: 100%;
+        height: 35px;
+        border: 1px solid #dddddd;
+        border-radius: 5px; }
+        .users-list-container .invite-users-title-input-dropdown-button .invite-users-input-dropdown-button .invite-users-dropdown-wrapper .invite-users-dropdown.clear .dropdown-toggle {
+          color: #CACACA; }
+        .users-list-container .invite-users-title-input-dropdown-button .invite-users-input-dropdown-button .invite-users-dropdown-wrapper .invite-users-dropdown li {
+          width: 100%;
+          height: 100%; }
+          .users-list-container .invite-users-title-input-dropdown-button .invite-users-input-dropdown-button .invite-users-dropdown-wrapper .invite-users-dropdown li a {
+            display: block;
+            color: #333;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            padding: 0px 10px 0px 10px;
+            margin-top: 6px; }
+            .users-list-container .invite-users-title-input-dropdown-button .invite-users-input-dropdown-button .invite-users-dropdown-wrapper .invite-users-dropdown li a .caret {
+              margin-top: 9px; }
+        .users-list-container .invite-users-title-input-dropdown-button .invite-users-input-dropdown-button .invite-users-dropdown-wrapper .invite-users-dropdown ul {
+          width: 100%; }
+          .users-list-container .invite-users-title-input-dropdown-button .invite-users-input-dropdown-button .invite-users-dropdown-wrapper .invite-users-dropdown ul li:first-child a {
+            margin-top: 5px; }
+          .users-list-container .invite-users-title-input-dropdown-button .invite-users-input-dropdown-button .invite-users-dropdown-wrapper .invite-users-dropdown ul a {
+            padding: 10px 0px 10px 10px;
+            margin-top: 0px; }
+    .users-list-container .invite-users-title-input-dropdown-button .invite-users-input-dropdown-button .invite-users-button {
+      width: 15%;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      .users-list-container .invite-users-title-input-dropdown-button .invite-users-input-dropdown-button .invite-users-button button {
+        width: 100%;
+        color: #FEFEFE;
+        background-color: gray;
+        border: none;
+        border-radius: 5px;
+        padding: 8px 0px 7px 0px;
+        outline: none; }
+      .users-list-container .invite-users-title-input-dropdown-button .invite-users-input-dropdown-button .invite-users-button button.active {
+        background-color: #23CCEF; }
+      .users-list-container .invite-users-title-input-dropdown-button .invite-users-input-dropdown-button .invite-users-button button.active:hover {
+        background-color: #00aed2; }
+  .users-list-container .invite-users-list-wrapper {
+    margin: 30px 0px 20px 0px;
+    border: 1px solid #dddddd;
+    border-radius: 5px; }
+    .users-list-container .invite-users-list-wrapper .invite-users-list-header {
+      display: flex;
+      flex-direction: row;
+      background-color: #F5F5F5;
+      border-top-right-radius: 5px;
+      border-top-left-radius: 5px;
+      padding: 10px 0px 10px 0px;
+      font-weight: 500; }
+      .users-list-container .invite-users-list-wrapper .invite-users-list-header .close-cross-header {
+        width: 5%; }
+      .users-list-container .invite-users-list-wrapper .invite-users-list-header .users-header {
+        width: 45%;
+        padding-left: 40px; }
+      .users-list-container .invite-users-list-wrapper .invite-users-list-header .admin-header {
+        width: 10%;
+        display: flex;
+        justify-content: center; }
+      .users-list-container .invite-users-list-wrapper .invite-users-list-header .user-header {
+        width: 10%;
+        display: flex;
+        justify-content: center; }
+      .users-list-container .invite-users-list-wrapper .invite-users-list-header .read-only-header {
+        width: 10%;
+        display: flex;
+        justify-content: center; }
+      .users-list-container .invite-users-list-wrapper .invite-users-list-header .user-project-contact-header {
+        width: 20%;
+        display: flex;
+        justify-content: center; }
+    .users-list-container .invite-users-list-wrapper .invite-users-list {
+      margin-bottom: 20px; }
+      .users-list-container .invite-users-list-wrapper .invite-users-list .invite-item-wrapper:not(:last-child) .contact-item-line {
+        border-top: 1px solid #dddddd;
+        flex-grow: 1;
+        margin: 0px 5% 0px 5%; }
+      .users-list-container .invite-users-list-wrapper .invite-users-list .invite-item-wrapper .invite-users-list-item {
+        display: flex;
+        flex-direction: row;
+        padding: 15px 0px 15px 0px; }
+        .users-list-container .invite-users-list-wrapper .invite-users-list .invite-item-wrapper .invite-users-list-item .invite-users-list-close-cross {
+          width: 5%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          font-size: 28px;
+          color: #b5b0b0; }
+          .users-list-container .invite-users-list-wrapper .invite-users-list .invite-item-wrapper .invite-users-list-item .invite-users-list-close-cross i {
+            cursor: pointer; }
+        .users-list-container .invite-users-list-wrapper .invite-users-list .invite-item-wrapper .invite-users-list-item .invite-users-list-email {
+          display: flex;
+          flex-wrap: wrap;
+          width: 45%;
+          padding-left: 40px;
+          display: flex;
+          align-items: center; }
+          .users-list-container .invite-users-list-wrapper .invite-users-list .invite-item-wrapper .invite-users-list-item .invite-users-list-email .invitation-sent {
+            min-width: 122px;
+            margin-left: 10px;
+            padding: 1px 5px 0px 5px;
+            color: #FEFEFE;
+            background-color: #87CB16;
+            border-radius: 4px; }
+          .users-list-container .invite-users-list-wrapper .invite-users-list .invite-item-wrapper .invite-users-list-item .invite-users-list-email .invitation-resend {
+            min-width: 120px;
+            text-decoration: underline;
+            margin-left: 10px; }
+          .users-list-container .invite-users-list-wrapper .invite-users-list .invite-item-wrapper .invite-users-list-item .invite-users-list-email .invitation-resend:hover {
+            cursor: pointer; }
+        .users-list-container .invite-users-list-wrapper .invite-users-list .invite-item-wrapper .invite-users-list-item .invite-users-list-admin {
+          width: 10%;
+          display: flex;
+          align-items: center;
+          justify-content: center; }
+        .users-list-container .invite-users-list-wrapper .invite-users-list .invite-item-wrapper .invite-users-list-item .invite-users-list-user {
+          width: 10%;
+          display: flex;
+          align-items: center;
+          justify-content: center; }
+        .users-list-container .invite-users-list-wrapper .invite-users-list .invite-item-wrapper .invite-users-list-item .invite-users-list-read-only {
+          width: 10%;
+          display: flex;
+          align-items: center;
+          justify-content: center; }
+        .users-list-container .invite-users-list-wrapper .invite-users-list .invite-item-wrapper .invite-users-list-item .user-project-contact {
+          width: 20%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          /* Rounded sliders */ }
+          .users-list-container .invite-users-list-wrapper .invite-users-list .invite-item-wrapper .invite-users-list-item .user-project-contact .switch {
+            position: relative;
+            display: inline-block;
+            width: 50px;
+            height: 23px;
+            margin-bottom: 0px; }
+          .users-list-container .invite-users-list-wrapper .invite-users-list .invite-item-wrapper .invite-users-list-item .user-project-contact .switch input {
+            display: none; }
+          .users-list-container .invite-users-list-wrapper .invite-users-list .invite-item-wrapper .invite-users-list-item .user-project-contact .slider {
+            position: absolute;
+            cursor: pointer;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: #ccc;
+            -webkit-transition: .4s;
+            transition: .4s; }
+          .users-list-container .invite-users-list-wrapper .invite-users-list .invite-item-wrapper .invite-users-list-item .user-project-contact .slider:before {
+            position: absolute;
+            content: "";
+            height: 17px;
+            width: 17px;
+            left: 4px;
+            bottom: 3px;
+            background-color: white;
+            -webkit-transition: .4s;
+            transition: .4s; }
+          .users-list-container .invite-users-list-wrapper .invite-users-list .invite-item-wrapper .invite-users-list-item .user-project-contact input:checked + .slider {
+            background-color: #2196F3; }
+          .users-list-container .invite-users-list-wrapper .invite-users-list .invite-item-wrapper .invite-users-list-item .user-project-contact input:focus + .slider {
+            box-shadow: 0 0 1px #2196F3; }
+          .users-list-container .invite-users-list-wrapper .invite-users-list .invite-item-wrapper .invite-users-list-item .user-project-contact input:checked + .slider:before {
+            -webkit-transform: translateX(26px);
+            -ms-transform: translateX(26px);
+            transform: translateX(26px); }
+          .users-list-container .invite-users-list-wrapper .invite-users-list .invite-item-wrapper .invite-users-list-item .user-project-contact .slider.round {
+            border-radius: 34px; }
+          .users-list-container .invite-users-list-wrapper .invite-users-list .invite-item-wrapper .invite-users-list-item .user-project-contact .slider.round:before {
+            border-radius: 50%; }
+          .users-list-container .invite-users-list-wrapper .invite-users-list .invite-item-wrapper .invite-users-list-item .user-project-contact .slider:after {
+            content: 'NO';
+            color: #FFFFFF;
+            display: block;
+            position: absolute;
+            transform: translate(-50%, -50%);
+            top: 50%;
+            left: 68%;
+            font-size: 12px;
+            font-weight: 400; }
+          .users-list-container .invite-users-list-wrapper .invite-users-list .invite-item-wrapper .invite-users-list-item .user-project-contact input:checked + .slider:after {
+            content: 'YES';
+            left: 32%; }
+        .users-list-container .invite-users-list-wrapper .invite-users-list .invite-item-wrapper .invite-users-list-item .invite-users-list-admin .radio-item, .users-list-container .invite-users-list-wrapper .invite-users-list .invite-item-wrapper .invite-users-list-item .invite-users-list-user .radio-item, .users-list-container .invite-users-list-wrapper .invite-users-list .invite-item-wrapper .invite-users-list-item .invite-users-list-read-only .radio-item {
+          display: inline-block;
+          position: relative;
+          padding: 0 6px; }
+          .users-list-container .invite-users-list-wrapper .invite-users-list .invite-item-wrapper .invite-users-list-item .invite-users-list-admin .radio-item label:hover, .users-list-container .invite-users-list-wrapper .invite-users-list .invite-item-wrapper .invite-users-list-item .invite-users-list-user .radio-item label:hover, .users-list-container .invite-users-list-wrapper .invite-users-list .invite-item-wrapper .invite-users-list-item .invite-users-list-read-only .radio-item label:hover {
+            cursor: pointer; }
+        .users-list-container .invite-users-list-wrapper .invite-users-list .invite-item-wrapper .invite-users-list-item .invite-users-list-admin .radio-item input[type='radio'], .users-list-container .invite-users-list-wrapper .invite-users-list .invite-item-wrapper .invite-users-list-item .invite-users-list-user .radio-item input[type='radio'], .users-list-container .invite-users-list-wrapper .invite-users-list .invite-item-wrapper .invite-users-list-item .invite-users-list-read-only .radio-item input[type='radio'] {
+          display: none; }
+        .users-list-container .invite-users-list-wrapper .invite-users-list .invite-item-wrapper .invite-users-list-item .invite-users-list-admin .radio-item label, .users-list-container .invite-users-list-wrapper .invite-users-list .invite-item-wrapper .invite-users-list-item .invite-users-list-user .radio-item label, .users-list-container .invite-users-list-wrapper .invite-users-list .invite-item-wrapper .invite-users-list-item .invite-users-list-read-only .radio-item label {
+          color: #666;
+          font-weight: normal; }
+        .users-list-container .invite-users-list-wrapper .invite-users-list .invite-item-wrapper .invite-users-list-item .invite-users-list-admin .radio-item label:before, .users-list-container .invite-users-list-wrapper .invite-users-list .invite-item-wrapper .invite-users-list-item .invite-users-list-user .radio-item label:before, .users-list-container .invite-users-list-wrapper .invite-users-list .invite-item-wrapper .invite-users-list-item .invite-users-list-read-only .radio-item label:before {
+          content: " ";
+          display: inline-block;
+          position: relative;
+          top: 5px;
+          margin: 0 5px 0 0;
+          width: 16px;
+          height: 16px;
+          border-radius: 11px;
+          border: 2px solid #E3E3E3;
+          background-color: transparent; }
+        .users-list-container .invite-users-list-wrapper .invite-users-list .invite-item-wrapper .invite-users-list-item .invite-users-list-admin .checked-admin label:before, .users-list-container .invite-users-list-wrapper .invite-users-list .invite-item-wrapper .invite-users-list-item .invite-users-list-admin .checked-user label:before, .users-list-container .invite-users-list-wrapper .invite-users-list .invite-item-wrapper .invite-users-list-item .invite-users-list-admin .checked-read-only label:before, .users-list-container .invite-users-list-wrapper .invite-users-list .invite-item-wrapper .invite-users-list-item .invite-users-list-user .checked-admin label:before, .users-list-container .invite-users-list-wrapper .invite-users-list .invite-item-wrapper .invite-users-list-item .invite-users-list-user .checked-user label:before, .users-list-container .invite-users-list-wrapper .invite-users-list .invite-item-wrapper .invite-users-list-item .invite-users-list-user .checked-read-only label:before, .users-list-container .invite-users-list-wrapper .invite-users-list .invite-item-wrapper .invite-users-list-item .invite-users-list-read-only .checked-admin label:before, .users-list-container .invite-users-list-wrapper .invite-users-list .invite-item-wrapper .invite-users-list-item .invite-users-list-read-only .checked-user label:before, .users-list-container .invite-users-list-wrapper .invite-users-list .invite-item-wrapper .invite-users-list-item .invite-users-list-read-only .checked-read-only label:before {
+          border: 2px solid #23CCEF; }
+        .users-list-container .invite-users-list-wrapper .invite-users-list .invite-item-wrapper .invite-users-list-item .invite-users-list-admin .radio-item input[type=radio]:checked + label:after, .users-list-container .invite-users-list-wrapper .invite-users-list .invite-item-wrapper .invite-users-list-item .invite-users-list-user .radio-item input[type=radio]:checked + label:after, .users-list-container .invite-users-list-wrapper .invite-users-list .invite-item-wrapper .invite-users-list-item .invite-users-list-read-only .radio-item input[type=radio]:checked + label:after {
+          border-radius: 11px;
+          width: 8px;
+          height: 8px;
+          position: absolute;
+          top: 9px;
+          left: 10px;
+          content: " ";
+          display: block;
+          background: #23CCEF; }
+
+@media screen and (max-width: 1400px) and (min-width: 992px) {
+  .users-list-container {
+    margin: 0px 0px 0px 0px;
+    padding: 20px 15px 0px 15px; }
+    .users-list-container .invite-users-title-input-dropdown-button .invite-users-input-dropdown-button .invite-users-input {
+      width: 60%; }
+    .users-list-container .invite-users-title-input-dropdown-button .invite-users-input-dropdown-button .invite-users-dropdown-wrapper {
+      width: 20%; }
+    .users-list-container .invite-users-title-input-dropdown-button .invite-users-input-dropdown-button .invite-users-button {
+      width: 20%; } }
+
+@media screen and (max-width: 992px) and (min-width: 600px) {
+  .users-list-container {
+    margin: 0px 0px 0px 0px;
+    padding: 20px 10px 0px 10px; }
+    .users-list-container .invite-users-title-input-dropdown-button .invite-users-input-dropdown-button .invite-users-input {
+      width: 50%; }
+    .users-list-container .invite-users-title-input-dropdown-button .invite-users-input-dropdown-button .invite-users-dropdown-wrapper {
+      width: 25%; }
+    .users-list-container .invite-users-title-input-dropdown-button .invite-users-input-dropdown-button .invite-users-button {
+      width: 25%; } }
+
+@media screen and (max-width: 600px) {
+  .users-list-container {
+    margin: 0px 0px 0px 0px;
+    padding: 20px 10px 0px 10px; }
+    .users-list-container .invite-users-title-input-dropdown-button .invite-users-input-dropdown-button {
+      display: flex;
+      flex-direction: column; }
+      .users-list-container .invite-users-title-input-dropdown-button .invite-users-input-dropdown-button .invite-users-input {
+        width: 100%;
+        margin-bottom: 20px; }
+      .users-list-container .invite-users-title-input-dropdown-button .invite-users-input-dropdown-button .invite-users-dropdown-wrapper {
+        width: 100%;
+        margin-bottom: 20px; }
+        .users-list-container .invite-users-title-input-dropdown-button .invite-users-input-dropdown-button .invite-users-dropdown-wrapper .invite-users-dropdown .dropdown-menu {
+          position: relative;
+          background-color: #fff;
+          top: 0%;
+          border: 1px solid #dddddd; }
+      .users-list-container .invite-users-title-input-dropdown-button .invite-users-input-dropdown-button .invite-users-button {
+        width: 100%; }
+    .users-list-container .invite-users-list-wrapper {
+      overflow-x: auto; }
+      .users-list-container .invite-users-list-wrapper .invite-users-list-header {
+        width: 900px; }
+        .users-list-container .invite-users-list-wrapper .invite-users-list-header .close-cross-header {
+          width: 5%; }
+        .users-list-container .invite-users-list-wrapper .invite-users-list-header .users-header {
+          width: 45%; }
+        .users-list-container .invite-users-list-wrapper .invite-users-list-header .admin-header {
+          width: 15%; }
+        .users-list-container .invite-users-list-wrapper .invite-users-list-header .user-header {
+          width: 15%; }
+        .users-list-container .invite-users-list-wrapper .invite-users-list-header .read-only-header {
+          width: 15%; }
+      .users-list-container .invite-users-list-wrapper .invite-users-list {
+        width: 900px; }
+        .users-list-container .invite-users-list-wrapper .invite-users-list .invite-item-wrapper .invite-users-list-item .invite-users-list-close-cross {
+          width: 5%; }
+        .users-list-container .invite-users-list-wrapper .invite-users-list .invite-item-wrapper .invite-users-list-item .invite-users-list-email {
+          width: 45%; }
+        .users-list-container .invite-users-list-wrapper .invite-users-list .invite-item-wrapper .invite-users-list-item .invite-users-list-admin {
+          width: 15%; }
+        .users-list-container .invite-users-list-wrapper .invite-users-list .invite-item-wrapper .invite-users-list-item .invite-users-list-user {
+          width: 15%; }
+        .users-list-container .invite-users-list-wrapper .invite-users-list .invite-item-wrapper .invite-users-list-item .invite-users-list-read-only {
+          width: 15%; } }

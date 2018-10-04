@@ -1,0 +1,716 @@
+.user-resorce-detail-wrapper-main {
+  border: 1px solid #dddddd;
+  border-radius: 4px;
+  background-color: #FFFFFF;
+  margin: 0px 15px 30px 15px;
+  padding: 20px 0px 20px 0px; }
+  .user-resorce-detail-wrapper-main .user-resorce-detail-wrapper .user-resorce-detail-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row; }
+    .user-resorce-detail-wrapper-main .user-resorce-detail-wrapper .user-resorce-detail-container .user-resorce-detail-name-description {
+      width: 50%;
+      padding: 20px 20px 20px 40px; }
+      .user-resorce-detail-wrapper-main .user-resorce-detail-wrapper .user-resorce-detail-container .user-resorce-detail-name-description .user-resorce-detail-name {
+        padding: 0px 0px 20px 0px; }
+        .user-resorce-detail-wrapper-main .user-resorce-detail-wrapper .user-resorce-detail-container .user-resorce-detail-name-description .user-resorce-detail-name .user-resorce-detail-name-title {
+          padding: 0px 0px 10px 0px; }
+        .user-resorce-detail-wrapper-main .user-resorce-detail-wrapper .user-resorce-detail-container .user-resorce-detail-name-description .user-resorce-detail-name input {
+          width: 100%;
+          height: 35px;
+          border-radius: 5px;
+          border: 1px solid #dddddd;
+          padding: 0px 0px 0px 10px; }
+      .user-resorce-detail-wrapper-main .user-resorce-detail-wrapper .user-resorce-detail-container .user-resorce-detail-name-description .user-resorce-detail-description {
+        padding: 0px 0px 20px 0px; }
+        .user-resorce-detail-wrapper-main .user-resorce-detail-wrapper .user-resorce-detail-container .user-resorce-detail-name-description .user-resorce-detail-description .user-resorce-detail-description-title {
+          padding: 0px 0px 10px 0px; }
+        .user-resorce-detail-wrapper-main .user-resorce-detail-wrapper .user-resorce-detail-container .user-resorce-detail-name-description .user-resorce-detail-description textarea {
+          width: 100%;
+          border-radius: 5px;
+          border: 1px solid #dddddd;
+          padding: 5px 0px 0px 10px;
+          resize: none; }
+      .user-resorce-detail-wrapper-main .user-resorce-detail-wrapper .user-resorce-detail-container .user-resorce-detail-name-description .user-resorce-detail-images-container .user-resorce-detail-images-title {
+        padding: 0px 0px 10px 0px; }
+      .user-resorce-detail-wrapper-main .user-resorce-detail-wrapper .user-resorce-detail-container .user-resorce-detail-name-description .user-resorce-detail-images-container .user-resorce-detail-images-wrapper {
+        border: 1px solid #dddddd;
+        border-radius: 5px;
+        padding: 10px 40px 10px 30px; }
+        .user-resorce-detail-wrapper-main .user-resorce-detail-wrapper .user-resorce-detail-container .user-resorce-detail-name-description .user-resorce-detail-images-container .user-resorce-detail-images-wrapper .user-resorce-detail-image-item-container .user-resorce-detail-image-item {
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          padding: 10px 10px 10px 20px;
+          overflow: hidden;
+          min-width: 130px; }
+          .user-resorce-detail-wrapper-main .user-resorce-detail-wrapper .user-resorce-detail-container .user-resorce-detail-name-description .user-resorce-detail-images-container .user-resorce-detail-images-wrapper .user-resorce-detail-image-item-container .user-resorce-detail-image-item img {
+            height: 100px;
+            width: 140px;
+            object-fit: cover;
+            border-radius: 5px; }
+          .user-resorce-detail-wrapper-main .user-resorce-detail-wrapper .user-resorce-detail-container .user-resorce-detail-name-description .user-resorce-detail-images-container .user-resorce-detail-images-wrapper .user-resorce-detail-image-item-container .user-resorce-detail-image-item .user-resorce-detail-image-description {
+            margin-left: 20px; }
+        .user-resorce-detail-wrapper-main .user-resorce-detail-wrapper .user-resorce-detail-container .user-resorce-detail-name-description .user-resorce-detail-images-container .user-resorce-detail-images-wrapper .user-resorce-detail-image-item-container:not(:last-child) .user-resorce-detail-item-line {
+          border-top: 1px solid #dddddd;
+          flex-grow: 1; }
+    .user-resorce-detail-wrapper-main .user-resorce-detail-wrapper .user-resorce-detail-container .user-resorce-detail-contact-operation-hours {
+      width: 50%;
+      padding: 20px 40px 20px 20px;
+      display: flex;
+      flex-direction: column; }
+      .user-resorce-detail-wrapper-main .user-resorce-detail-wrapper .user-resorce-detail-container .user-resorce-detail-contact-operation-hours .user-resorce-detail-contact {
+        display: flex;
+        flex-direction: row;
+        height: 85px;
+        padding: 0px 0px 20px 0px; }
+        .user-resorce-detail-wrapper-main .user-resorce-detail-wrapper .user-resorce-detail-container .user-resorce-detail-contact-operation-hours .user-resorce-detail-contact .user-resorce-detail-contact-name {
+          color: #23CCEF;
+          font-weight: 550;
+          margin-left: 15px; }
+          .user-resorce-detail-wrapper-main .user-resorce-detail-wrapper .user-resorce-detail-container .user-resorce-detail-contact-operation-hours .user-resorce-detail-contact .user-resorce-detail-contact-name span:hover {
+            cursor: pointer; }
+      .user-resorce-detail-wrapper-main .user-resorce-detail-wrapper .user-resorce-detail-container .user-resorce-detail-contact-operation-hours .user-resorce-detail-operation-hours .user-resorce-detail-operation-hours-title {
+        padding: 0px 0px 10px 0px; }
+      .user-resorce-detail-wrapper-main .user-resorce-detail-wrapper .user-resorce-detail-container .user-resorce-detail-contact-operation-hours .user-resorce-detail-operation-hours .user-resorce-detail-operation-hours-schedule {
+        border: 1px solid #dddddd;
+        border-radius: 5px; }
+        .user-resorce-detail-wrapper-main .user-resorce-detail-wrapper .user-resorce-detail-container .user-resorce-detail-contact-operation-hours .user-resorce-detail-operation-hours .user-resorce-detail-operation-hours-schedule .operation-hours-row {
+          padding: 10px 0px 10px 0px; }
+          .user-resorce-detail-wrapper-main .user-resorce-detail-wrapper .user-resorce-detail-container .user-resorce-detail-contact-operation-hours .user-resorce-detail-operation-hours .user-resorce-detail-operation-hours-schedule .operation-hours-row .operation-hours-container {
+            display: flex;
+            flex-direction: row;
+            margin-bottom: 5px;
+            padding-left: 25px; }
+            .user-resorce-detail-wrapper-main .user-resorce-detail-wrapper .user-resorce-detail-container .user-resorce-detail-contact-operation-hours .user-resorce-detail-operation-hours .user-resorce-detail-operation-hours-schedule .operation-hours-row .operation-hours-container .operation-hours-day {
+              width: 40%; }
+            .user-resorce-detail-wrapper-main .user-resorce-detail-wrapper .user-resorce-detail-container .user-resorce-detail-contact-operation-hours .user-resorce-detail-operation-hours .user-resorce-detail-operation-hours-schedule .operation-hours-row .operation-hours-container .operation-hours-schedule {
+              width: 100%; }
+          .user-resorce-detail-wrapper-main .user-resorce-detail-wrapper .user-resorce-detail-container .user-resorce-detail-contact-operation-hours .user-resorce-detail-operation-hours .user-resorce-detail-operation-hours-schedule .operation-hours-row:not(:last-child) .operation-hours-line {
+            border-top: 1px solid #dddddd;
+            flex-grow: 1;
+            margin: 0 20px; }
+        .user-resorce-detail-wrapper-main .user-resorce-detail-wrapper .user-resorce-detail-container .user-resorce-detail-contact-operation-hours .user-resorce-detail-operation-hours .user-resorce-detail-operation-hours-schedule .operation-hours-row:last-child {
+          padding-bottom: 0px; }
+  .user-resorce-detail-wrapper-main .close-resource-info-button-container {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0px 10px 0px; }
+    .user-resorce-detail-wrapper-main .close-resource-info-button-container button {
+      width: 150px;
+      color: #FEFEFE;
+      background-color: #afafaf;
+      border: 2px solid gray;
+      border-radius: 5px;
+      padding: 5px 0px 5px 0px;
+      outline: none;
+      color: #23CCEF;
+      background-color: #FFFFFF;
+      border: 2px solid #23CCEF;
+      font-size: 18px; }
+    .user-resorce-detail-wrapper-main .close-resource-info-button-container button:hover {
+      background-color: #e8fdff; }
+
+.project-add-resource-container-wrapper {
+  border: 1px solid #dddddd;
+  border-radius: 4px;
+  background-color: #FFFFFF;
+  margin: 0px 15px 30px 15px;
+  padding: 20px 0px 20px 0px; }
+  .project-add-resource-container-wrapper .project-add-resource-container {
+    display: flex;
+    flex-direction: row; }
+    .project-add-resource-container-wrapper .project-add-resource-container .resource-name-type-owner-description {
+      width: 50%;
+      padding: 0px 20px 0px 20px; }
+      .project-add-resource-container-wrapper .project-add-resource-container .resource-name-type-owner-description .input-error {
+        color: red;
+        padding-top: 5px; }
+      .project-add-resource-container-wrapper .project-add-resource-container .resource-name-type-owner-description .resource-name-title {
+        margin-bottom: 10px; }
+      .project-add-resource-container-wrapper .project-add-resource-container .resource-name-type-owner-description .resource-name-type-owner {
+        display: flex;
+        flex-direction: row; }
+        .project-add-resource-container-wrapper .project-add-resource-container .resource-name-type-owner-description .resource-name-type-owner .resource-listing-image {
+          width: 30%;
+          min-width: 170px; }
+          .project-add-resource-container-wrapper .project-add-resource-container .resource-name-type-owner-description .resource-name-type-owner .resource-listing-image .resource-cover-img-title {
+            margin-bottom: 10px; }
+            .project-add-resource-container-wrapper .project-add-resource-container .resource-name-type-owner-description .resource-name-type-owner .resource-listing-image .resource-cover-img-title .edit-cover-image {
+              margin-left: 10px;
+              color: #11bfe3; }
+            .project-add-resource-container-wrapper .project-add-resource-container .resource-name-type-owner-description .resource-name-type-owner .resource-listing-image .resource-cover-img-title .edit-cover-image:hover {
+              cursor: pointer; }
+          .project-add-resource-container-wrapper .project-add-resource-container .resource-name-type-owner-description .resource-name-type-owner .resource-listing-image .resource-listing-dropzone-container img {
+            width: 100%;
+            height: 120px;
+            -o-object-fit: cover;
+            object-fit: cover;
+            border: 1px solid #dddddd;
+            border-radius: 20px; }
+          .project-add-resource-container-wrapper .project-add-resource-container .resource-name-type-owner-description .resource-name-type-owner .resource-listing-image .resource-listing-dropzone-container .upload {
+            display: flex;
+            flex-direction: row; }
+            .project-add-resource-container-wrapper .project-add-resource-container .resource-name-type-owner-description .resource-name-type-owner .resource-listing-image .resource-listing-dropzone-container .upload .upload-picture {
+              padding: 9px 0px 0px 5px; }
+          .project-add-resource-container-wrapper .project-add-resource-container .resource-name-type-owner-description .resource-name-type-owner .resource-listing-image .resource-listing-dropzone-container .camera {
+            font-size: 28px;
+            color: #b5b0b0; }
+          .project-add-resource-container-wrapper .project-add-resource-container .resource-name-type-owner-description .resource-name-type-owner .resource-listing-image .resource-listing-dropzone-container .dropzone {
+            width: 100%;
+            height: 120px;
+            border: 1px solid #dddddd;
+            border-radius: 20px;
+            background-color: #EBEBE4;
+            display: flex;
+            justify-content: center;
+            align-items: center; }
+          .project-add-resource-container-wrapper .project-add-resource-container .resource-name-type-owner-description .resource-name-type-owner .resource-listing-image .resource-listing-dropzone-container .dropzone:hover {
+            cursor: pointer;
+            background-color: #e4e4e4; }
+        .project-add-resource-container-wrapper .project-add-resource-container .resource-name-type-owner-description .resource-name-type-owner .name-type-owner {
+          width: 70%;
+          padding-left: 20px; }
+          .project-add-resource-container-wrapper .project-add-resource-container .resource-name-type-owner-description .resource-name-type-owner .name-type-owner .resource-name-input-container {
+            margin-bottom: 20px; }
+            .project-add-resource-container-wrapper .project-add-resource-container .resource-name-type-owner-description .resource-name-type-owner .name-type-owner .resource-name-input-container input {
+              width: 100%;
+              height: 35px;
+              border-radius: 5px;
+              border: 1px solid #dddddd;
+              outline: none;
+              -webkit-box-shadow: none;
+              box-shadow: none;
+              padding-left: 10px; }
+            .project-add-resource-container-wrapper .project-add-resource-container .resource-name-type-owner-description .resource-name-type-owner .name-type-owner .resource-name-input-container input[type=text]:focus {
+              border: 1px solid #23CCEF; }
+            .project-add-resource-container-wrapper .project-add-resource-container .resource-name-type-owner-description .resource-name-type-owner .name-type-owner .resource-name-input-container ::placeholder {
+              color: #CACACA;
+              opacity: 1;
+              /* Firefox */ }
+          .project-add-resource-container-wrapper .project-add-resource-container .resource-name-type-owner-description .resource-name-type-owner .name-type-owner .resource-type-owner-container {
+            display: flex;
+            flex-direction: row; }
+            .project-add-resource-container-wrapper .project-add-resource-container .resource-name-type-owner-description .resource-name-type-owner .name-type-owner .resource-type-owner-container .resource-type-container, .project-add-resource-container-wrapper .project-add-resource-container .resource-name-type-owner-description .resource-name-type-owner .name-type-owner .resource-type-owner-container .resource-owner-container {
+              width: 50%; }
+            .project-add-resource-container-wrapper .project-add-resource-container .resource-name-type-owner-description .resource-name-type-owner .name-type-owner .resource-type-owner-container .resource-type-container {
+              padding-right: 10px; }
+            .project-add-resource-container-wrapper .project-add-resource-container .resource-name-type-owner-description .resource-name-type-owner .name-type-owner .resource-type-owner-container .resource-owner-container {
+              padding-left: 10px; }
+            .project-add-resource-container-wrapper .project-add-resource-container .resource-name-type-owner-description .resource-name-type-owner .name-type-owner .resource-type-owner-container .Select.is-focused:not(.is-open) .Select-control {
+              border-color: #23CCEF;
+              box-shadow: 0px 0px 0px 0px; }
+      .project-add-resource-container-wrapper .project-add-resource-container .resource-name-type-owner-description .resource-description {
+        margin-top: 15px;
+        width: 100%; }
+        .project-add-resource-container-wrapper .project-add-resource-container .resource-name-type-owner-description .resource-description .resource-description-title {
+          margin-bottom: 10px; }
+        .project-add-resource-container-wrapper .project-add-resource-container .resource-name-type-owner-description .resource-description textarea {
+          width: 100%;
+          border-radius: 5px;
+          border: 1px solid #dddddd;
+          padding: 5px 0px 0px 10px;
+          resize: none; }
+        .project-add-resource-container-wrapper .project-add-resource-container .resource-name-type-owner-description .resource-description ::placeholder {
+          color: #CACACA;
+          opacity: 1;
+          /* Firefox */ }
+        .project-add-resource-container-wrapper .project-add-resource-container .resource-name-type-owner-description .resource-description textarea:focus {
+          outline: none !important;
+          border: 1px solid #23CCEF; }
+      .project-add-resource-container-wrapper .project-add-resource-container .resource-name-type-owner-description .resource-images {
+        margin-top: 10px;
+        width: 100%; }
+        .project-add-resource-container-wrapper .project-add-resource-container .resource-name-type-owner-description .resource-images .images {
+          margin-top: 10px; }
+          .project-add-resource-container-wrapper .project-add-resource-container .resource-name-type-owner-description .resource-images .images .images-title {
+            margin-bottom: 10px; }
+          .project-add-resource-container-wrapper .project-add-resource-container .resource-name-type-owner-description .resource-images .images .images-list {
+            width: 100%;
+            border: 1px solid #dddddd;
+            border-radius: 5px; }
+            .project-add-resource-container-wrapper .project-add-resource-container .resource-name-type-owner-description .resource-images .images .images-list .image-item-line {
+              border-top: 1px solid #dddddd;
+              flex-grow: 1;
+              margin: 0 20px; }
+            .project-add-resource-container-wrapper .project-add-resource-container .resource-name-type-owner-description .resource-images .images .images-list .image-item {
+              display: flex;
+              flex-direction: row;
+              width: 100%;
+              padding: 10px 20px 10px 20px; }
+              .project-add-resource-container-wrapper .project-add-resource-container .resource-name-type-owner-description .resource-images .images .images-list .image-item .close-cross {
+                width: 8%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-size: 28px;
+                color: #b5b0b0; }
+                .project-add-resource-container-wrapper .project-add-resource-container .resource-name-type-owner-description .resource-images .images .images-list .image-item .close-cross i {
+                  cursor: pointer; }
+              .project-add-resource-container-wrapper .project-add-resource-container .resource-name-type-owner-description .resource-images .images .images-list .image-item .resource-image-description-edit {
+                width: 92%;
+                display: flex;
+                flex-direction: row;
+                overflow: hidden; }
+                .project-add-resource-container-wrapper .project-add-resource-container .resource-name-type-owner-description .resource-images .images .images-list .image-item .resource-image-description-edit .resource-add-image-container {
+                  width: 20%;
+                  min-width: 130px; }
+                  .project-add-resource-container-wrapper .project-add-resource-container .resource-name-type-owner-description .resource-images .images .images-list .image-item .resource-image-description-edit .resource-add-image-container img {
+                    height: 100px;
+                    object-fit: cover;
+                    width: 100%;
+                    border-radius: 5px; }
+                .project-add-resource-container-wrapper .project-add-resource-container .resource-name-type-owner-description .resource-images .images .images-list .image-item .resource-image-description-edit .resource-add-image-container:hover {
+                  cursor: pointer; }
+                .project-add-resource-container-wrapper .project-add-resource-container .resource-name-type-owner-description .resource-images .images .images-list .image-item .resource-image-description-edit .image-description-container {
+                  width: 65%;
+                  max-height: 100px;
+                  padding: 0px 10px 0px 10px;
+                  display: flex;
+                  align-items: center; }
+                  .project-add-resource-container-wrapper .project-add-resource-container .resource-name-type-owner-description .resource-images .images .images-list .image-item .resource-image-description-edit .image-description-container .image-description {
+                    width: 100%;
+                    overflow: hidden;
+                    align-items: flex-start; }
+                  .project-add-resource-container-wrapper .project-add-resource-container .resource-name-type-owner-description .resource-images .images .images-list .image-item .resource-image-description-edit .image-description-container .image-description-placeholder {
+                    color: #CACACA; }
+                  .project-add-resource-container-wrapper .project-add-resource-container .resource-name-type-owner-description .resource-images .images .images-list .image-item .resource-image-description-edit .image-description-container .image-input-description {
+                    width: 100%;
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center; }
+                    .project-add-resource-container-wrapper .project-add-resource-container .resource-name-type-owner-description .resource-images .images .images-list .image-item .resource-image-description-edit .image-description-container .image-input-description input {
+                      width: 100%;
+                      height: 35px;
+                      border-radius: 5px;
+                      border: 1px solid #dddddd;
+                      outline: none;
+                      -webkit-box-shadow: none;
+                      box-shadow: none;
+                      padding-left: 10px; }
+                    .project-add-resource-container-wrapper .project-add-resource-container .resource-name-type-owner-description .resource-images .images .images-list .image-item .resource-image-description-edit .image-description-container .image-input-description input[type=text]:focus {
+                      border: 1px solid #23CCEF; }
+                    .project-add-resource-container-wrapper .project-add-resource-container .resource-name-type-owner-description .resource-images .images .images-list .image-item .resource-image-description-edit .image-description-container .image-input-description ::placeholder {
+                      color: #CACACA;
+                      opacity: 1;
+                      /* Firefox */ }
+                    .project-add-resource-container-wrapper .project-add-resource-container .resource-name-type-owner-description .resource-images .images .images-list .image-item .resource-image-description-edit .image-description-container .image-input-description .exist-image-description-edit-buttons {
+                      display: flex;
+                      flex-direction: row; }
+                      .project-add-resource-container-wrapper .project-add-resource-container .resource-name-type-owner-description .resource-images .images .images-list .image-item .resource-image-description-edit .image-description-container .image-input-description .exist-image-description-edit-buttons button {
+                        height: 35px;
+                        color: #FEFEFE;
+                        background-color: #23CCEF;
+                        border: none;
+                        border-radius: 5px;
+                        padding: 0px 20px 0px 20px;
+                        margin-left: 10px;
+                        outline: none; }
+                      .project-add-resource-container-wrapper .project-add-resource-container .resource-name-type-owner-description .resource-images .images .images-list .image-item .resource-image-description-edit .image-description-container .image-input-description .exist-image-description-edit-buttons button.cancel {
+                        margin-left: 10px;
+                        background-color: #FFA534; }
+                      .project-add-resource-container-wrapper .project-add-resource-container .resource-name-type-owner-description .resource-images .images .images-list .image-item .resource-image-description-edit .image-description-container .image-input-description .exist-image-description-edit-buttons button:hover {
+                        background-color: #00aed2; }
+                      .project-add-resource-container-wrapper .project-add-resource-container .resource-name-type-owner-description .resource-images .images .images-list .image-item .resource-image-description-edit .image-description-container .image-input-description .exist-image-description-edit-buttons button.cancel:hover {
+                        background-color: #cc8429; }
+                  .project-add-resource-container-wrapper .project-add-resource-container .resource-name-type-owner-description .resource-images .images .images-list .image-item .resource-image-description-edit .image-description-container.full-width {
+                    width: 80%; }
+                .project-add-resource-container-wrapper .project-add-resource-container .resource-name-type-owner-description .resource-images .images .images-list .image-item .resource-image-description-edit .edit-icon {
+                  width: 15%;
+                  display: flex;
+                  align-items: center;
+                  justify-content: center;
+                  font-size: 40px;
+                  color: #b5b0b0; }
+                  .project-add-resource-container-wrapper .project-add-resource-container .resource-name-type-owner-description .resource-images .images .images-list .image-item .resource-image-description-edit .edit-icon i {
+                    cursor: pointer; }
+            .project-add-resource-container-wrapper .project-add-resource-container .resource-name-type-owner-description .resource-images .images .images-list .upload {
+              display: flex;
+              flex-direction: row; }
+              .project-add-resource-container-wrapper .project-add-resource-container .resource-name-type-owner-description .resource-images .images .images-list .upload .upload-picture {
+                padding: 9px 0px 0px 5px; }
+            .project-add-resource-container-wrapper .project-add-resource-container .resource-name-type-owner-description .resource-images .images .images-list .camera {
+              font-size: 28px;
+              color: #b5b0b0; }
+            .project-add-resource-container-wrapper .project-add-resource-container .resource-name-type-owner-description .resource-images .images .images-list .dropzone-project-inner-container {
+              padding: 30px 0px 20px 0px; }
+              .project-add-resource-container-wrapper .project-add-resource-container .resource-name-type-owner-description .resource-images .images .images-list .dropzone-project-inner-container .project-inner-image {
+                width: 25%;
+                min-width: 200px;
+                height: 40px;
+                border: 1px solid #dddddd;
+                border-radius: 25px;
+                background-color: #EBEBE4;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin: auto; }
+              .project-add-resource-container-wrapper .project-add-resource-container .resource-name-type-owner-description .resource-images .images .images-list .dropzone-project-inner-container .project-inner-image:hover {
+                cursor: pointer;
+                background-color: #e4e4e4; }
+    .project-add-resource-container-wrapper .project-add-resource-container .timezone-schedule {
+      width: 50%; }
+      .project-add-resource-container-wrapper .project-add-resource-container .timezone-schedule .schedule-settings {
+        border-radius: 5px;
+        border: 1px solid #dddddd;
+        margin: 10px 20px 0px 0px;
+        /* Rounded sliders */ }
+        .project-add-resource-container-wrapper .project-add-resource-container .timezone-schedule .schedule-settings .schedule-settings-header {
+          display: flex;
+          flex-direction: row;
+          width: 100%;
+          background-color: #F5F5F5;
+          border-top-left-radius: 5px;
+          border-top-right-radius: 5px;
+          padding: 10px 0px 10px 0px; }
+          .project-add-resource-container-wrapper .project-add-resource-container .timezone-schedule .schedule-settings .schedule-settings-header .schedule-settings-header-1 {
+            width: 20%; }
+          .project-add-resource-container-wrapper .project-add-resource-container .timezone-schedule .schedule-settings .schedule-settings-header .schedule-settings-header-2, .project-add-resource-container-wrapper .project-add-resource-container .timezone-schedule .schedule-settings .schedule-settings-header .schedule-settings-header-5 {
+            width: 15%;
+            display: flex;
+            justify-content: center; }
+          .project-add-resource-container-wrapper .project-add-resource-container .timezone-schedule .schedule-settings .schedule-settings-header .schedule-settings-header-3, .project-add-resource-container-wrapper .project-add-resource-container .timezone-schedule .schedule-settings .schedule-settings-header .schedule-settings-header-4 {
+            width: 25%;
+            display: flex;
+            justify-content: center; }
+        .project-add-resource-container-wrapper .project-add-resource-container .timezone-schedule .schedule-settings .schedule-settings-body {
+          display: flex;
+          flex-direction: column; }
+          .project-add-resource-container-wrapper .project-add-resource-container .timezone-schedule .schedule-settings .schedule-settings-body .schedule-settings-body-container {
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+            padding: 10px 0px 10px 0px; }
+            .project-add-resource-container-wrapper .project-add-resource-container .timezone-schedule .schedule-settings .schedule-settings-body .schedule-settings-body-container .schedule-settings-body-1 {
+              padding-left: 10px;
+              width: 20%;
+              display: flex;
+              align-items: center; }
+              .project-add-resource-container-wrapper .project-add-resource-container .timezone-schedule .schedule-settings .schedule-settings-body .schedule-settings-body-container .schedule-settings-body-1 label {
+                margin-bottom: 0px; }
+            .project-add-resource-container-wrapper .project-add-resource-container .timezone-schedule .schedule-settings .schedule-settings-body .schedule-settings-body-container .schedule-settings-body-2 {
+              width: 15%;
+              display: flex;
+              justify-content: center;
+              align-items: center; }
+              .project-add-resource-container-wrapper .project-add-resource-container .timezone-schedule .schedule-settings .schedule-settings-body .schedule-settings-body-container .schedule-settings-body-2 label {
+                margin-bottom: 0px; }
+            .project-add-resource-container-wrapper .project-add-resource-container .timezone-schedule .schedule-settings .schedule-settings-body .schedule-settings-body-container .schedule-settings-body-3, .project-add-resource-container-wrapper .project-add-resource-container .timezone-schedule .schedule-settings .schedule-settings-body .schedule-settings-body-container .schedule-settings-body-4 {
+              width: 25%;
+              display: flex;
+              align-items: center; }
+              .project-add-resource-container-wrapper .project-add-resource-container .timezone-schedule .schedule-settings .schedule-settings-body .schedule-settings-body-container .schedule-settings-body-3 label, .project-add-resource-container-wrapper .project-add-resource-container .timezone-schedule .schedule-settings .schedule-settings-body .schedule-settings-body-container .schedule-settings-body-4 label {
+                margin-bottom: 0px; }
+              .project-add-resource-container-wrapper .project-add-resource-container .timezone-schedule .schedule-settings .schedule-settings-body .schedule-settings-body-container .schedule-settings-body-3 .start-time, .project-add-resource-container-wrapper .project-add-resource-container .timezone-schedule .schedule-settings .schedule-settings-body .schedule-settings-body-container .schedule-settings-body-3 .end-time, .project-add-resource-container-wrapper .project-add-resource-container .timezone-schedule .schedule-settings .schedule-settings-body .schedule-settings-body-container .schedule-settings-body-4 .start-time, .project-add-resource-container-wrapper .project-add-resource-container .timezone-schedule .schedule-settings .schedule-settings-body .schedule-settings-body-container .schedule-settings-body-4 .end-time {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 100%;
+                height: 31px;
+                border-radius: 5px;
+                border: 1px solid #dddddd;
+                margin-right: 20px; }
+                .project-add-resource-container-wrapper .project-add-resource-container .timezone-schedule .schedule-settings .schedule-settings-body .schedule-settings-body-container .schedule-settings-body-3 .start-time.disactive, .project-add-resource-container-wrapper .project-add-resource-container .timezone-schedule .schedule-settings .schedule-settings-body .schedule-settings-body-container .schedule-settings-body-3 .end-time.disactive, .project-add-resource-container-wrapper .project-add-resource-container .timezone-schedule .schedule-settings .schedule-settings-body .schedule-settings-body-container .schedule-settings-body-4 .start-time.disactive, .project-add-resource-container-wrapper .project-add-resource-container .timezone-schedule .schedule-settings .schedule-settings-body .schedule-settings-body-container .schedule-settings-body-4 .end-time.disactive {
+                  background-color: #F5F5F5; }
+                .project-add-resource-container-wrapper .project-add-resource-container .timezone-schedule .schedule-settings .schedule-settings-body .schedule-settings-body-container .schedule-settings-body-3 .start-time .resource-schedule-dropdown, .project-add-resource-container-wrapper .project-add-resource-container .timezone-schedule .schedule-settings .schedule-settings-body .schedule-settings-body-container .schedule-settings-body-3 .end-time .resource-schedule-dropdown, .project-add-resource-container-wrapper .project-add-resource-container .timezone-schedule .schedule-settings .schedule-settings-body .schedule-settings-body-container .schedule-settings-body-4 .start-time .resource-schedule-dropdown, .project-add-resource-container-wrapper .project-add-resource-container .timezone-schedule .schedule-settings .schedule-settings-body .schedule-settings-body-container .schedule-settings-body-4 .end-time .resource-schedule-dropdown {
+                  list-style: none;
+                  width: 100%;
+                  height: 100%; }
+                  .project-add-resource-container-wrapper .project-add-resource-container .timezone-schedule .schedule-settings .schedule-settings-body .schedule-settings-body-container .schedule-settings-body-3 .start-time .resource-schedule-dropdown.clear .dropdown-toggle, .project-add-resource-container-wrapper .project-add-resource-container .timezone-schedule .schedule-settings .schedule-settings-body .schedule-settings-body-container .schedule-settings-body-3 .end-time .resource-schedule-dropdown.clear .dropdown-toggle, .project-add-resource-container-wrapper .project-add-resource-container .timezone-schedule .schedule-settings .schedule-settings-body .schedule-settings-body-container .schedule-settings-body-4 .start-time .resource-schedule-dropdown.clear .dropdown-toggle, .project-add-resource-container-wrapper .project-add-resource-container .timezone-schedule .schedule-settings .schedule-settings-body .schedule-settings-body-container .schedule-settings-body-4 .end-time .resource-schedule-dropdown.clear .dropdown-toggle {
+                    color: #CACACA; }
+                  .project-add-resource-container-wrapper .project-add-resource-container .timezone-schedule .schedule-settings .schedule-settings-body .schedule-settings-body-container .schedule-settings-body-3 .start-time .resource-schedule-dropdown .clear-dropdown-select, .project-add-resource-container-wrapper .project-add-resource-container .timezone-schedule .schedule-settings .schedule-settings-body .schedule-settings-body-container .schedule-settings-body-3 .end-time .resource-schedule-dropdown .clear-dropdown-select, .project-add-resource-container-wrapper .project-add-resource-container .timezone-schedule .schedule-settings .schedule-settings-body .schedule-settings-body-container .schedule-settings-body-4 .start-time .resource-schedule-dropdown .clear-dropdown-select, .project-add-resource-container-wrapper .project-add-resource-container .timezone-schedule .schedule-settings .schedule-settings-body .schedule-settings-body-container .schedule-settings-body-4 .end-time .resource-schedule-dropdown .clear-dropdown-select {
+                    color: #CACACA;
+                    width: 100%;
+                    height: 100%; }
+                  .project-add-resource-container-wrapper .project-add-resource-container .timezone-schedule .schedule-settings .schedule-settings-body .schedule-settings-body-container .schedule-settings-body-3 .start-time .resource-schedule-dropdown li, .project-add-resource-container-wrapper .project-add-resource-container .timezone-schedule .schedule-settings .schedule-settings-body .schedule-settings-body-container .schedule-settings-body-3 .end-time .resource-schedule-dropdown li, .project-add-resource-container-wrapper .project-add-resource-container .timezone-schedule .schedule-settings .schedule-settings-body .schedule-settings-body-container .schedule-settings-body-4 .start-time .resource-schedule-dropdown li, .project-add-resource-container-wrapper .project-add-resource-container .timezone-schedule .schedule-settings .schedule-settings-body .schedule-settings-body-container .schedule-settings-body-4 .end-time .resource-schedule-dropdown li {
+                    width: 100%;
+                    height: 100%; }
+                    .project-add-resource-container-wrapper .project-add-resource-container .timezone-schedule .schedule-settings .schedule-settings-body .schedule-settings-body-container .schedule-settings-body-3 .start-time .resource-schedule-dropdown li a, .project-add-resource-container-wrapper .project-add-resource-container .timezone-schedule .schedule-settings .schedule-settings-body .schedule-settings-body-container .schedule-settings-body-3 .end-time .resource-schedule-dropdown li a, .project-add-resource-container-wrapper .project-add-resource-container .timezone-schedule .schedule-settings .schedule-settings-body .schedule-settings-body-container .schedule-settings-body-4 .start-time .resource-schedule-dropdown li a, .project-add-resource-container-wrapper .project-add-resource-container .timezone-schedule .schedule-settings .schedule-settings-body .schedule-settings-body-container .schedule-settings-body-4 .end-time .resource-schedule-dropdown li a {
+                      display: block;
+                      color: #333;
+                      width: 100%;
+                      height: 100%;
+                      display: flex;
+                      flex-direction: row;
+                      justify-content: space-between;
+                      padding: 0px 10px 0px 10px;
+                      margin-top: 6px; }
+                      .project-add-resource-container-wrapper .project-add-resource-container .timezone-schedule .schedule-settings .schedule-settings-body .schedule-settings-body-container .schedule-settings-body-3 .start-time .resource-schedule-dropdown li a .caret, .project-add-resource-container-wrapper .project-add-resource-container .timezone-schedule .schedule-settings .schedule-settings-body .schedule-settings-body-container .schedule-settings-body-3 .end-time .resource-schedule-dropdown li a .caret, .project-add-resource-container-wrapper .project-add-resource-container .timezone-schedule .schedule-settings .schedule-settings-body .schedule-settings-body-container .schedule-settings-body-4 .start-time .resource-schedule-dropdown li a .caret, .project-add-resource-container-wrapper .project-add-resource-container .timezone-schedule .schedule-settings .schedule-settings-body .schedule-settings-body-container .schedule-settings-body-4 .end-time .resource-schedule-dropdown li a .caret {
+                        margin-top: 9px; }
+                  .project-add-resource-container-wrapper .project-add-resource-container .timezone-schedule .schedule-settings .schedule-settings-body .schedule-settings-body-container .schedule-settings-body-3 .start-time .resource-schedule-dropdown ul, .project-add-resource-container-wrapper .project-add-resource-container .timezone-schedule .schedule-settings .schedule-settings-body .schedule-settings-body-container .schedule-settings-body-3 .end-time .resource-schedule-dropdown ul, .project-add-resource-container-wrapper .project-add-resource-container .timezone-schedule .schedule-settings .schedule-settings-body .schedule-settings-body-container .schedule-settings-body-4 .start-time .resource-schedule-dropdown ul, .project-add-resource-container-wrapper .project-add-resource-container .timezone-schedule .schedule-settings .schedule-settings-body .schedule-settings-body-container .schedule-settings-body-4 .end-time .resource-schedule-dropdown ul {
+                    width: 100%;
+                    max-height: 300px;
+                    overflow-y: auto;
+                    overflow-x: hidden; }
+                    .project-add-resource-container-wrapper .project-add-resource-container .timezone-schedule .schedule-settings .schedule-settings-body .schedule-settings-body-container .schedule-settings-body-3 .start-time .resource-schedule-dropdown ul li:first-child a, .project-add-resource-container-wrapper .project-add-resource-container .timezone-schedule .schedule-settings .schedule-settings-body .schedule-settings-body-container .schedule-settings-body-3 .end-time .resource-schedule-dropdown ul li:first-child a, .project-add-resource-container-wrapper .project-add-resource-container .timezone-schedule .schedule-settings .schedule-settings-body .schedule-settings-body-container .schedule-settings-body-4 .start-time .resource-schedule-dropdown ul li:first-child a, .project-add-resource-container-wrapper .project-add-resource-container .timezone-schedule .schedule-settings .schedule-settings-body .schedule-settings-body-container .schedule-settings-body-4 .end-time .resource-schedule-dropdown ul li:first-child a {
+                      margin-top: 5px; }
+                    .project-add-resource-container-wrapper .project-add-resource-container .timezone-schedule .schedule-settings .schedule-settings-body .schedule-settings-body-container .schedule-settings-body-3 .start-time .resource-schedule-dropdown ul a, .project-add-resource-container-wrapper .project-add-resource-container .timezone-schedule .schedule-settings .schedule-settings-body .schedule-settings-body-container .schedule-settings-body-3 .end-time .resource-schedule-dropdown ul a, .project-add-resource-container-wrapper .project-add-resource-container .timezone-schedule .schedule-settings .schedule-settings-body .schedule-settings-body-container .schedule-settings-body-4 .start-time .resource-schedule-dropdown ul a, .project-add-resource-container-wrapper .project-add-resource-container .timezone-schedule .schedule-settings .schedule-settings-body .schedule-settings-body-container .schedule-settings-body-4 .end-time .resource-schedule-dropdown ul a {
+                      padding: 10px 0px 10px 10px;
+                      margin-top: 0px; }
+            .project-add-resource-container-wrapper .project-add-resource-container .timezone-schedule .schedule-settings .schedule-settings-body .schedule-settings-body-container .schedule-settings-body-5 {
+              width: 15%;
+              display: flex;
+              justify-content: center;
+              align-items: center; }
+              .project-add-resource-container-wrapper .project-add-resource-container .timezone-schedule .schedule-settings .schedule-settings-body .schedule-settings-body-container .schedule-settings-body-5 label {
+                margin-bottom: 0px; }
+        .project-add-resource-container-wrapper .project-add-resource-container .timezone-schedule .schedule-settings .switch {
+          position: relative;
+          display: inline-block;
+          width: 50px;
+          height: 23px; }
+        .project-add-resource-container-wrapper .project-add-resource-container .timezone-schedule .schedule-settings .switch input {
+          display: none; }
+        .project-add-resource-container-wrapper .project-add-resource-container .timezone-schedule .schedule-settings .slider {
+          position: absolute;
+          cursor: pointer;
+          top: 0;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          background-color: #ccc;
+          -webkit-transition: .4s;
+          transition: .4s; }
+        .project-add-resource-container-wrapper .project-add-resource-container .timezone-schedule .schedule-settings .slider:before {
+          position: absolute;
+          content: "";
+          height: 17px;
+          width: 17px;
+          left: 4px;
+          bottom: 3px;
+          background-color: white;
+          -webkit-transition: .4s;
+          transition: .4s; }
+        .project-add-resource-container-wrapper .project-add-resource-container .timezone-schedule .schedule-settings input:checked + .slider {
+          background-color: #2196F3; }
+        .project-add-resource-container-wrapper .project-add-resource-container .timezone-schedule .schedule-settings input:focus + .slider {
+          box-shadow: 0 0 1px #2196F3; }
+        .project-add-resource-container-wrapper .project-add-resource-container .timezone-schedule .schedule-settings input:checked + .slider:before {
+          -webkit-transform: translateX(26px);
+          -ms-transform: translateX(26px);
+          transform: translateX(26px); }
+        .project-add-resource-container-wrapper .project-add-resource-container .timezone-schedule .schedule-settings .slider.round {
+          border-radius: 34px; }
+        .project-add-resource-container-wrapper .project-add-resource-container .timezone-schedule .schedule-settings .slider.round:before {
+          border-radius: 50%; }
+        .project-add-resource-container-wrapper .project-add-resource-container .timezone-schedule .schedule-settings .slider:after {
+          content: 'NO';
+          color: #FFFFFF;
+          display: block;
+          position: absolute;
+          transform: translate(-50%, -50%);
+          top: 50%;
+          left: 68%;
+          font-size: 12px;
+          font-weight: 400; }
+        .project-add-resource-container-wrapper .project-add-resource-container .timezone-schedule .schedule-settings input:checked + .slider:after {
+          content: 'YES';
+          left: 32%; }
+      .project-add-resource-container-wrapper .project-add-resource-container .timezone-schedule .input-error {
+        color: red;
+        padding-top: 5px; }
+  .project-add-resource-container-wrapper .save-button-container .save-cancel-button-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 20px 20px 0px 0px; }
+    .project-add-resource-container-wrapper .save-button-container .save-cancel-button-container .cancel {
+      margin-right: 20px;
+      background-color: #FFA534; }
+    .project-add-resource-container-wrapper .save-button-container .save-cancel-button-container .cancel:hover {
+      background-color: #ffc071; }
+    .project-add-resource-container-wrapper .save-button-container .save-cancel-button-container .save {
+      background-color: gray; }
+      .project-add-resource-container-wrapper .save-button-container .save-cancel-button-container .save.active {
+        background-color: #23CCEF; }
+      .project-add-resource-container-wrapper .save-button-container .save-cancel-button-container .save.active:hover {
+        background-color: #00aed2; }
+    .project-add-resource-container-wrapper .save-button-container .save-cancel-button-container button {
+      color: #FEFEFE;
+      background-color: #00aed2;
+      border: none;
+      border-radius: 5px;
+      padding: 10px 20px 10px 20px;
+      outline: none; }
+    .project-add-resource-container-wrapper .save-button-container .save-cancel-button-container .update {
+      background-color: gray; }
+      .project-add-resource-container-wrapper .save-button-container .save-cancel-button-container .update.active {
+        background-color: #23CCEF; }
+      .project-add-resource-container-wrapper .save-button-container .save-cancel-button-container .update.active:hover {
+        background-color: #00aed2; }
+
+@media screen and (max-width: 1400px) and (min-width: 600px) {
+  .user-resorce-detail-wrapper-main {
+    margin: 0px 0px 30px 0px; }
+    .user-resorce-detail-wrapper-main .user-resorce-detail-wrapper .user-resorce-detail-container .user-resorce-detail-name-description {
+      padding: 20px 10px 20px 10px; }
+      .user-resorce-detail-wrapper-main .user-resorce-detail-wrapper .user-resorce-detail-container .user-resorce-detail-name-description .user-resorce-detail-images-container .user-resorce-detail-images-wrapper {
+        padding: 10px 10px 10px 10px; }
+        .user-resorce-detail-wrapper-main .user-resorce-detail-wrapper .user-resorce-detail-container .user-resorce-detail-name-description .user-resorce-detail-images-container .user-resorce-detail-images-wrapper .user-resorce-detail-image-item-container .user-resorce-detail-image-item {
+          padding: 10px 0px 10px 00px; }
+    .user-resorce-detail-wrapper-main .user-resorce-detail-wrapper .user-resorce-detail-container .user-resorce-detail-contact-operation-hours {
+      padding: 20px 10px 20px 10px; }
+  .project-add-resource-container-wrapper {
+    margin: 0px 0px 30px 0px;
+    padding: 20px 0px 20px 0px; }
+    .project-add-resource-container-wrapper .project-add-resource-container {
+      flex-direction: column; }
+      .project-add-resource-container-wrapper .project-add-resource-container .resource-name-type-owner-description {
+        width: 100%; }
+        .project-add-resource-container-wrapper .project-add-resource-container .resource-name-type-owner-description .resource-images .images .images-list .image-item .resource-image-description-edit .image-description-container .image-input-description .exist-image-description-edit-buttons {
+          margin: 10px 0px 10px 0px; }
+          .project-add-resource-container-wrapper .project-add-resource-container .resource-name-type-owner-description .resource-images .images .images-list .image-item .resource-image-description-edit .image-description-container .image-input-description .exist-image-description-edit-buttons button {
+            margin-left: 10px; }
+          .project-add-resource-container-wrapper .project-add-resource-container .resource-name-type-owner-description .resource-images .images .images-list .image-item .resource-image-description-edit .image-description-container .image-input-description .exist-image-description-edit-buttons button.cancel {
+            margin-left: 10px;
+            background-color: #FFA534; }
+        .project-add-resource-container-wrapper .project-add-resource-container .resource-name-type-owner-description .resource-images .images .images-list .image-item .resource-image-description-edit .image-description-container.full-width {
+          width: 100%; }
+        .project-add-resource-container-wrapper .project-add-resource-container .resource-name-type-owner-description .resource-images .images .images-list .image-item .resource-image-description-edit .edit-icon {
+          width: 100%; }
+        .project-add-resource-container-wrapper .project-add-resource-container .resource-name-type-owner-description .resource-images .images .images-list .upload {
+          display: flex;
+          flex-direction: row; }
+          .project-add-resource-container-wrapper .project-add-resource-container .resource-name-type-owner-description .resource-images .images .images-list .upload .upload-picture {
+            padding: 9px 0px 0px 5px; }
+        .project-add-resource-container-wrapper .project-add-resource-container .resource-name-type-owner-description .resource-images .images .images-list .camera {
+          font-size: 28px;
+          color: #b5b0b0; }
+        .project-add-resource-container-wrapper .project-add-resource-container .resource-name-type-owner-description .resource-images .images .images-list .dropzone-project-inner-container .project-inner-image {
+          width: 80%;
+          max-width: 250px; }
+      .project-add-resource-container-wrapper .project-add-resource-container .timezone-schedule {
+        width: 100%;
+        padding: 20px 0px 0px 20px; } }
+
+@media screen and (max-width: 600px) {
+  .user-resorce-detail-wrapper-main {
+    margin: 0px 0px 30px 0px; }
+    .user-resorce-detail-wrapper-main .user-resorce-detail-wrapper .user-resorce-detail-container {
+      flex-direction: column; }
+      .user-resorce-detail-wrapper-main .user-resorce-detail-wrapper .user-resorce-detail-container .user-resorce-detail-name-description {
+        width: 100%;
+        padding: 20px 10px 0px 10px; }
+        .user-resorce-detail-wrapper-main .user-resorce-detail-wrapper .user-resorce-detail-container .user-resorce-detail-name-description .user-resorce-detail-images-container .user-resorce-detail-images-title {
+          padding: 0px 0px 10px 0px; }
+        .user-resorce-detail-wrapper-main .user-resorce-detail-wrapper .user-resorce-detail-container .user-resorce-detail-name-description .user-resorce-detail-images-container .user-resorce-detail-images-wrapper {
+          padding: 10px 10px 10px 10px; }
+      .user-resorce-detail-wrapper-main .user-resorce-detail-wrapper .user-resorce-detail-container .user-resorce-detail-contact-operation-hours {
+        width: 100%;
+        padding: 20px 10px 10px 10px; }
+        .user-resorce-detail-wrapper-main .user-resorce-detail-wrapper .user-resorce-detail-container .user-resorce-detail-contact-operation-hours .user-resorce-detail-contact {
+          height: unset; }
+        .user-resorce-detail-wrapper-main .user-resorce-detail-wrapper .user-resorce-detail-container .user-resorce-detail-contact-operation-hours .user-resorce-detail-operation-hours .user-resorce-detail-operation-hours-schedule .operation-hours-row .operation-hours-container .operation-hours-day {
+          width: 40%;
+          min-width: 100px; }
+  .project-add-resource-container-wrapper {
+    margin: 0px 0px 30px 0px;
+    padding: 20px 0px 20px 0px; }
+    .project-add-resource-container-wrapper .project-add-resource-container {
+      display: flex;
+      flex-direction: column; }
+      .project-add-resource-container-wrapper .project-add-resource-container .resource-name-type-owner-description {
+        width: 100%; }
+        .project-add-resource-container-wrapper .project-add-resource-container .resource-name-type-owner-description .resource-name-title {
+          margin-top: 10px;
+          margin-bottom: 10px; }
+        .project-add-resource-container-wrapper .project-add-resource-container .resource-name-type-owner-description .resource-name-type-owner {
+          flex-direction: column; }
+          .project-add-resource-container-wrapper .project-add-resource-container .resource-name-type-owner-description .resource-name-type-owner .resource-listing-image {
+            width: 100%; }
+          .project-add-resource-container-wrapper .project-add-resource-container .resource-name-type-owner-description .resource-name-type-owner .name-type-owner {
+            width: 100%;
+            padding-left: 0px; }
+            .project-add-resource-container-wrapper .project-add-resource-container .resource-name-type-owner-description .resource-name-type-owner .name-type-owner .resource-name-input-container {
+              margin-bottom: 0px; }
+            .project-add-resource-container-wrapper .project-add-resource-container .resource-name-type-owner-description .resource-name-type-owner .name-type-owner .resource-type-owner-container {
+              flex-direction: column; }
+              .project-add-resource-container-wrapper .project-add-resource-container .resource-name-type-owner-description .resource-name-type-owner .name-type-owner .resource-type-owner-container .resource-type-container, .project-add-resource-container-wrapper .project-add-resource-container .resource-name-type-owner-description .resource-name-type-owner .name-type-owner .resource-type-owner-container .resource-owner-container {
+                width: 100%; }
+              .project-add-resource-container-wrapper .project-add-resource-container .resource-name-type-owner-description .resource-name-type-owner .name-type-owner .resource-type-owner-container .resource-type-container {
+                padding-right: 0px; }
+              .project-add-resource-container-wrapper .project-add-resource-container .resource-name-type-owner-description .resource-name-type-owner .name-type-owner .resource-type-owner-container .resource-owner-container {
+                padding-left: 0px; }
+        .project-add-resource-container-wrapper .project-add-resource-container .resource-name-type-owner-description .resource-images {
+          margin-top: 15px;
+          width: 100%; }
+          .project-add-resource-container-wrapper .project-add-resource-container .resource-name-type-owner-description .resource-images .images {
+            margin-top: 20px; }
+            .project-add-resource-container-wrapper .project-add-resource-container .resource-name-type-owner-description .resource-images .images .images-title {
+              margin-bottom: 10px; }
+            .project-add-resource-container-wrapper .project-add-resource-container .resource-name-type-owner-description .resource-images .images .images-list {
+              width: 100%;
+              border: 1px solid #dddddd;
+              border-radius: 5px; }
+              .project-add-resource-container-wrapper .project-add-resource-container .resource-name-type-owner-description .resource-images .images .images-list .image-item-line {
+                border-top: 1px solid #dddddd;
+                flex-grow: 1;
+                margin: 0 20px; }
+              .project-add-resource-container-wrapper .project-add-resource-container .resource-name-type-owner-description .resource-images .images .images-list .image-item {
+                display: flex;
+                flex-direction: row;
+                width: 100%;
+                padding: 10px 20px 10px 20px; }
+                .project-add-resource-container-wrapper .project-add-resource-container .resource-name-type-owner-description .resource-images .images .images-list .image-item .close-cross {
+                  width: 18%;
+                  display: block;
+                  padding-top: 35px;
+                  font-size: 28px;
+                  color: #b5b0b0; }
+                  .project-add-resource-container-wrapper .project-add-resource-container .resource-name-type-owner-description .resource-images .images .images-list .image-item .close-cross i {
+                    cursor: pointer; }
+                .project-add-resource-container-wrapper .project-add-resource-container .resource-name-type-owner-description .resource-images .images .images-list .image-item .resource-image-description-edit {
+                  width: 82%;
+                  display: flex;
+                  flex-direction: column; }
+                  .project-add-resource-container-wrapper .project-add-resource-container .resource-name-type-owner-description .resource-images .images .images-list .image-item .resource-image-description-edit .resource-add-image-container {
+                    width: 100%;
+                    display: flex;
+                    justify-content: center;
+                    /*center horizontal*/ }
+                  .project-add-resource-container-wrapper .project-add-resource-container .resource-name-type-owner-description .resource-images .images .images-list .image-item .resource-image-description-edit .image-description-container {
+                    padding: 10px 0px 0px 0px; }
+                    .project-add-resource-container-wrapper .project-add-resource-container .resource-name-type-owner-description .resource-images .images .images-list .image-item .resource-image-description-edit .image-description-container .image-input-description {
+                      flex-direction: column;
+                      padding-top: 10px; }
+                      .project-add-resource-container-wrapper .project-add-resource-container .resource-name-type-owner-description .resource-images .images .images-list .image-item .resource-image-description-edit .image-description-container .image-input-description .exist-image-description-edit-buttons {
+                        margin: 10px 0px 10px 0px; }
+                        .project-add-resource-container-wrapper .project-add-resource-container .resource-name-type-owner-description .resource-images .images .images-list .image-item .resource-image-description-edit .image-description-container .image-input-description .exist-image-description-edit-buttons button {
+                          margin-left: 0px; }
+                        .project-add-resource-container-wrapper .project-add-resource-container .resource-name-type-owner-description .resource-images .images .images-list .image-item .resource-image-description-edit .image-description-container .image-input-description .exist-image-description-edit-buttons button.cancel {
+                          margin-left: 10px;
+                          background-color: #FFA534; }
+                    .project-add-resource-container-wrapper .project-add-resource-container .resource-name-type-owner-description .resource-images .images .images-list .image-item .resource-image-description-edit .image-description-container.full-width {
+                      width: 100%; }
+                  .project-add-resource-container-wrapper .project-add-resource-container .resource-name-type-owner-description .resource-images .images .images-list .image-item .resource-image-description-edit .edit-icon {
+                    width: 100%; }
+              .project-add-resource-container-wrapper .project-add-resource-container .resource-name-type-owner-description .resource-images .images .images-list .upload {
+                display: flex;
+                flex-direction: row; }
+                .project-add-resource-container-wrapper .project-add-resource-container .resource-name-type-owner-description .resource-images .images .images-list .upload .upload-picture {
+                  padding: 9px 0px 0px 5px; }
+              .project-add-resource-container-wrapper .project-add-resource-container .resource-name-type-owner-description .resource-images .images .images-list .camera {
+                font-size: 28px;
+                color: #b5b0b0; }
+              .project-add-resource-container-wrapper .project-add-resource-container .resource-name-type-owner-description .resource-images .images .images-list .dropzone-project-inner-container .project-inner-image {
+                width: 80%; }
+      .project-add-resource-container-wrapper .project-add-resource-container .timezone-schedule {
+        width: 100%;
+        padding: 20px 20px 0px 20px; }
+        .project-add-resource-container-wrapper .project-add-resource-container .timezone-schedule .timezone-dropdown-wrapper {
+          width: 100%;
+          padding-right: 0px; }
+          .project-add-resource-container-wrapper .project-add-resource-container .timezone-schedule .timezone-dropdown-wrapper .timezone-dropdown .dropdown-menu {
+            position: relative;
+            background-color: #fff;
+            top: 0%;
+            border: 1px solid #dddddd; }
+        .project-add-resource-container-wrapper .project-add-resource-container .timezone-schedule .schedule-settings-wrapper {
+          overflow-x: auto; }
+        .project-add-resource-container-wrapper .project-add-resource-container .timezone-schedule .schedule-settings {
+          width: 700px; }
+          .project-add-resource-container-wrapper .project-add-resource-container .timezone-schedule .schedule-settings .schedule-settings-body .schedule-settings-body-container .schedule-settings-body-3 .start-time .resource-schedule-dropdown .dropdown-menu, .project-add-resource-container-wrapper .project-add-resource-container .timezone-schedule .schedule-settings .schedule-settings-body .schedule-settings-body-container .schedule-settings-body-3 .end-time .resource-schedule-dropdown .dropdown-menu, .project-add-resource-container-wrapper .project-add-resource-container .timezone-schedule .schedule-settings .schedule-settings-body .schedule-settings-body-container .schedule-settings-body-4 .start-time .resource-schedule-dropdown .dropdown-menu, .project-add-resource-container-wrapper .project-add-resource-container .timezone-schedule .schedule-settings .schedule-settings-body .schedule-settings-body-container .schedule-settings-body-4 .end-time .resource-schedule-dropdown .dropdown-menu {
+            position: relative;
+            background-color: #fff;
+            top: 0%;
+            border: 1px solid #dddddd; } }
